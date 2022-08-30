@@ -108,7 +108,7 @@ public class MaActivity extends AppCompatActivity implements LoaderManager.Loade
                         return true;
 
                     case R.id.contact:
-                        startActivity(new Intent(getApplicationContext(), OrderSucceessActivity.class));
+                        startActivity(new Intent(getApplicationContext(), McontactActivity.class));
                         overridePendingTransition(0, 0);
                         return true;
 

@@ -65,7 +65,7 @@ public class about extends AppCompatActivity {
 */
 
         AboutView view = AboutBuilder.with(this)
-                .setPhoto(R.drawable.profile)
+                .setPhoto(R.drawable.profiley)
                 .setCover(R.drawable.banner)
                 .setName("Yahya Rabii")
                 .setSubTitle("software engineering student")

@@ -57,6 +57,7 @@
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable-v24/ic_edit_32.xml" value="0.131" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.131" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable-v24/ic_person_add_32.xml" value="0.131" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/button.xml" value="0.1" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/button_background.xml" value="0.1" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/button_bg.xml" value="0.131" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/contact.xml" value="0.1" />
@@ -64,45 +65,56 @@
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_about.xml" value="0.131" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_add.xml" value="0.1455" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_add_circle.xml" value="0.131" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_address.xml" value="0.1" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_contact.xml" value="0.131" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_dashboard.xml" value="0.131" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_email.xml" value="0.1" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_home.xml" value="0.131" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_launcher_background.xml" value="0.131" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_person.xml" value="0.2165" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_phone.xml" value="0.1" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_remove_circle.xml" value="0.131" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_star.xml" value="0.1" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_suplier.xml" value="0.131" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/ic_user.xml" value="0.1" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/photo.xml" value="0.1" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/drawable/selector.xml" value="0.131" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_about.xml" value="0.22" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_add_contact.xml" value="0.22" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_bottom_nav.xml" value="0.209375" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_contact.xml" value="0.11231884057971014" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_contact_details.xml" value="0.10157041540020263" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_contact_edit.xml" value="0.209375" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_contact_editor.xml" value="0.11231884057971014" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_contact_new.xml" value="0.2" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_contacts_details.xml" value="0.19375" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_editor.xml" value="0.21" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_fina_menu.xml" value="0.1" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_list.xml" value="0.12" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_login.xml" value="0.22" />
-        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_ma.xml" value="0.4622991347342398" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_ma.xml" value="0.22" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_mcontact.xml" value="0.18" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_order_succeess.xml" value="0.1" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_place_your_order.xml" value="0.209375" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/activity_splash.xml" value="0.209375" />
-        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/item_contact.xml" value="0.209375" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/contact_detail.xml" value="0.36376210235131395" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/item_contact.xml" value="0.18" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/layout_add_contact.xml" value="0.20833333333333334" />
-        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/list_item.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/list_item.xml" value="0.25" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/listitem.xml" value="0.11231884057971014" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/menu_recycler_row.xml" value="0.209375" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/place_order_recycler_row.xml" value="0.209375" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/recycler_row.xml" value="0.2" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/layout/toolbar_layout.xml" value="0.10157041540020263" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/menu/bottom_nav_menu.xml" value="0.209375" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/menu/main_menu.xml" value="0.20564102564102565" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/menu/menu.xml" value="0.33" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/menu/menu_editor.xml" value="0.20885416666666667" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/menu/menueditor.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/lesdeux/FinaNet/app/src/main/res/menu/settings.xml" value="0.18796296296296297" />
       </map>
     </option>
   </component>

@@ -24,6 +24,18 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".NewContactActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".ContactsDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".McontactActivity"
+            android:theme="@style/Theme.FinaNetApp"  />
+
         <activity android:name=".MaActivity"
             android:configChanges="orientation|screenSize"
             android:exported="true"/>

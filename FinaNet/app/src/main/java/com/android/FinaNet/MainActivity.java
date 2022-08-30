@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements FinaListAdapter.F
                         return true;
 
                     case R.id.contact:
-                        startActivity(new Intent(getApplicationContext(), OrderSucceessActivity.class));
+                        startActivity(new Intent(getApplicationContext(), McontactActivity.class));
                         overridePendingTransition(0, 0);
                         return true;
 

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-63:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\yahya\.gradle\caches\transforms-3\75297023975bdd76dc810ed23ff29bbf\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yahya\.gradle\caches\transforms-3\4b099e9383f288a93a1c224aa6e4f6ea\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:2:1-36:12
@@ -17,12 +17,14 @@ MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\yahya\.gradle\ca
 MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\yahya\.gradle\caches\transforms-3\d40ae70e5a879a3a8f5ac4c7caafdc7b\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:15:1-38:12
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\yahya\.gradle\caches\transforms-3\39960523f2ca4f607737e6cfe9ac1556\transformed\jetified-grpc-android-1.41.0\AndroidManifest.xml:2:1-13:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\yahya\.gradle\caches\transforms-3\0a4942626682bc936ac80c680caf53a4\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.room:room-runtime:2.0.0] C:\Users\yahya\.gradle\caches\transforms-3\a0185194fa5dfd88e315af108fd58bb6\transformed\room-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yahya\.gradle\caches\transforms-3\9aed6fe4dab80045731c681035336aea\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\yahya\.gradle\caches\transforms-3\f31ffdf4a9cc56bcc7ecd1833abc7a42\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yahya\.gradle\caches\transforms-3\134334e0aa03cb5bfaa72d2cdc1da3f0\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\yahya\.gradle\caches\transforms-3\a5a3c1191468bd4a0a672d4c7804c7a8\transformed\jetified-firebase-appcheck-interop-16.0.0\AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.1] C:\Users\yahya\.gradle\caches\transforms-3\0c9a48b1e1f463af6e8feb43d07ac531\transformed\jetified-play-services-measurement-api-20.0.1\AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yahya\.gradle\caches\transforms-3\9f504ec29b047a9f30a6f81b954f8333\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\yahya\.gradle\caches\transforms-3\1b0010f6264208faa73973763347a68f\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:15:1-40:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yahya\.gradle\caches\transforms-3\9aed6fe4dab80045731c681035336aea\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\yahya\.gradle\caches\transforms-3\c8ce5e6b30e7e61ea6d4b4113d2d546e\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\yahya\.gradle\caches\transforms-3\015a6641b33091ce2bf50bd4ddf511fa\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\yahya\.gradle\caches\transforms-3\298466709ecdb61391916e9019dbb0d1\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
@@ -55,7 +57,6 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yah
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yahya\.gradle\caches\transforms-3\4b23897bc806fd520413c2642180651f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\yahya\.gradle\caches\transforms-3\bd13c11927bd36333c5f15f4f7de2b96\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yahya\.gradle\caches\transforms-3\69673876aff666ead9a23b0bc2002e6c\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\yahya\.gradle\caches\transforms-3\f31ffdf4a9cc56bcc7ecd1833abc7a42\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\yahya\.gradle\caches\transforms-3\822f7c7e04bb796cc8b61e2240f80086\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.8.0] C:\Users\yahya\.gradle\caches\transforms-3\ca18492abc4e717cba0e2f1b8c3a4c89\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yahya\.gradle\caches\transforms-3\0e15e8f3c1ff462f49004462c9cd5824\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -64,6 +65,8 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\yahya\.gradle
 MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\yahya\.gradle\caches\transforms-3\cf4c223017be958a0c6b4c6ad59957d7\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yahya\.gradle\caches\transforms-3\55cebf1a87adda636b726c2e3dfc40fe\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\yahya\.gradle\caches\transforms-3\6ae74f118af951a096c20d114715ff91\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] C:\Users\yahya\.gradle\caches\transforms-3\ecae94dbfa718ce6b31031dbce0ef621\transformed\sqlite-framework-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.0] C:\Users\yahya\.gradle\caches\transforms-3\d8b10a685237f00c19694c031c1c313e\transformed\sqlite-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yahya\.gradle\caches\transforms-3\ced5ff0cdd157de1935481afba65b84e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] C:\Users\yahya\.gradle\caches\transforms-3\21a98db4e73366f3cfa6fe91f1d73b0e\transformed\lifecycle-runtime-2.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\yahya\.gradle\caches\transforms-3\3ada87aa8d29f76f423b643791470668\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -78,20 +81,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yahya\.gradle\ca
 MERGED from [androidx.print:print:1.0.0] C:\Users\yahya\.gradle\caches\transforms-3\afbdcaa71b5b681fc9d27c7af2114821\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\yahya\.gradle\caches\transforms-3\5712798c99542b4e85760a395cc08db7\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\yahya\.gradle\caches\transforms-3\05e1129815a1bb23615fe25d054bb27e\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-63:12
 	package
 		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-63:12
 		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-63:12
 		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:11-69
@@ -120,7 +123,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.1] C:
 	android:name
 		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:8:5-49:19
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:8:5-61:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\yahya\.gradle\caches\transforms-3\75297023975bdd76dc810ed23ff29bbf\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\yahya\.gradle\caches\transforms-3\75297023975bdd76dc810ed23ff29bbf\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yahya\.gradle\caches\transforms-3\4b099e9383f288a93a1c224aa6e4f6ea\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -213,60 +216,78 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
 		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.android.FinaNet.NewContactActivity
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:27:9-29:59
+	android:theme
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:28:13-47
+activity#com.android.FinaNet.ContactsDetailsActivity
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:31:9-33:59
+	android:theme
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:32:13-52
+activity#com.android.FinaNet.McontactActivity
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:35:9-37:56
+	android:theme
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:37:13-52
+	android:name
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:36:13-45
 activity#com.android.FinaNet.MaActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:27:9-29:38
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:39:9-41:38
 	android:exported
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:29:13-36
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:41:13-36
 	android:configChanges
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:28:13-59
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:40:13-59
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:27:19-45
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:39:19-45
 activity#com.android.FinaNet.EditorActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:31:9-35:15
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:43:9-47:15
 	android:parentActivityName
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:34:13-53
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:46:13-53
 	android:label
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:33:13-45
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:45:13-45
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:32:13-43
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:44:13-43
 activity#com.android.FinaNet.about
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:37:9-43
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:49:9-43
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:37:19-40
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:49:19-40
 activity#com.android.FinaNet.RegisterActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:38:9-54
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:50:9-54
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:38:19-51
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:50:19-51
 activity#com.android.FinaNet.OrderSucceessActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:39:9-59
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:51:9-59
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:39:19-56
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:51:19-56
 activity#com.android.FinaNet.PlaceYourOrderActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:40:9-60
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:52:9-60
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:40:19-57
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:52:19-57
 activity#com.android.FinaNet.brandsMenuActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:41:9-56
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:53:9-56
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:41:19-53
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:53:19-53
 activity#com.android.FinaNet.SplashActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:42:9-52
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:54:9-52
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:42:19-49
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:54:19-49
 activity#com.android.FinaNet.MainActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:43:9-50
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:55:9-50
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:43:19-47
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:55:19-47
 activity#com.android.FinaNet.ForgotPasswordActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:44:9-60
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:56:9-60
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:44:19-57
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:56:19-57
 provider#com.android.FinaNet.data.ItemsProvider
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:46:9-48:67
+ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:58:9-60:67
 	android:authorities
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:48:13-64
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:60:13-64
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:47:13-47
+		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:59:13-47
 uses-sdk
 INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
@@ -297,6 +318,12 @@ MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\yahya\.gradle\caches\transfor
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\yahya\.gradle\caches\transforms-3\39960523f2ca4f607737e6cfe9ac1556\transformed\jetified-grpc-android-1.41.0\AndroidManifest.xml:7:5-9:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\yahya\.gradle\caches\transforms-3\0a4942626682bc936ac80c680caf53a4\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\yahya\.gradle\caches\transforms-3\0a4942626682bc936ac80c680caf53a4\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-runtime:2.0.0] C:\Users\yahya\.gradle\caches\transforms-3\a0185194fa5dfd88e315af108fd58bb6\transformed\room-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.0.0] C:\Users\yahya\.gradle\caches\transforms-3\a0185194fa5dfd88e315af108fd58bb6\transformed\room-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yahya\.gradle\caches\transforms-3\9aed6fe4dab80045731c681035336aea\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yahya\.gradle\caches\transforms-3\9aed6fe4dab80045731c681035336aea\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\yahya\.gradle\caches\transforms-3\f31ffdf4a9cc56bcc7ecd1833abc7a42\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\yahya\.gradle\caches\transforms-3\f31ffdf4a9cc56bcc7ecd1833abc7a42\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yahya\.gradle\caches\transforms-3\134334e0aa03cb5bfaa72d2cdc1da3f0\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yahya\.gradle\caches\transforms-3\134334e0aa03cb5bfaa72d2cdc1da3f0\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\yahya\.gradle\caches\transforms-3\a5a3c1191468bd4a0a672d4c7804c7a8\transformed\jetified-firebase-appcheck-interop-16.0.0\AndroidManifest.xml:19:5-21:41
@@ -307,8 +334,6 @@ MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yahya\.
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yahya\.gradle\caches\transforms-3\9f504ec29b047a9f30a6f81b954f8333\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\yahya\.gradle\caches\transforms-3\1b0010f6264208faa73973763347a68f\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\yahya\.gradle\caches\transforms-3\1b0010f6264208faa73973763347a68f\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yahya\.gradle\caches\transforms-3\9aed6fe4dab80045731c681035336aea\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yahya\.gradle\caches\transforms-3\9aed6fe4dab80045731c681035336aea\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\yahya\.gradle\caches\transforms-3\c8ce5e6b30e7e61ea6d4b4113d2d546e\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\yahya\.gradle\caches\transforms-3\c8ce5e6b30e7e61ea6d4b4113d2d546e\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\yahya\.gradle\caches\transforms-3\015a6641b33091ce2bf50bd4ddf511fa\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
@@ -373,8 +398,6 @@ MERGED from [androidx.browser:browser:1.4.0] C:\Users\yahya\.gradle\caches\trans
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\yahya\.gradle\caches\transforms-3\bd13c11927bd36333c5f15f4f7de2b96\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yahya\.gradle\caches\transforms-3\69673876aff666ead9a23b0bc2002e6c\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yahya\.gradle\caches\transforms-3\69673876aff666ead9a23b0bc2002e6c\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\yahya\.gradle\caches\transforms-3\f31ffdf4a9cc56bcc7ecd1833abc7a42\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\yahya\.gradle\caches\transforms-3\f31ffdf4a9cc56bcc7ecd1833abc7a42\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\yahya\.gradle\caches\transforms-3\822f7c7e04bb796cc8b61e2240f80086\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\yahya\.gradle\caches\transforms-3\822f7c7e04bb796cc8b61e2240f80086\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.8.0] C:\Users\yahya\.gradle\caches\transforms-3\ca18492abc4e717cba0e2f1b8c3a4c89\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
@@ -391,6 +414,10 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yahya\.gradle\caches\transforms-3\55cebf1a87adda636b726c2e3dfc40fe\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\yahya\.gradle\caches\transforms-3\6ae74f118af951a096c20d114715ff91\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\yahya\.gradle\caches\transforms-3\6ae74f118af951a096c20d114715ff91\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] C:\Users\yahya\.gradle\caches\transforms-3\ecae94dbfa718ce6b31031dbce0ef621\transformed\sqlite-framework-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] C:\Users\yahya\.gradle\caches\transforms-3\ecae94dbfa718ce6b31031dbce0ef621\transformed\sqlite-framework-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] C:\Users\yahya\.gradle\caches\transforms-3\d8b10a685237f00c19694c031c1c313e\transformed\sqlite-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] C:\Users\yahya\.gradle\caches\transforms-3\d8b10a685237f00c19694c031c1c313e\transformed\sqlite-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yahya\.gradle\caches\transforms-3\ced5ff0cdd157de1935481afba65b84e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yahya\.gradle\caches\transforms-3\ced5ff0cdd157de1935481afba65b84e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] C:\Users\yahya\.gradle\caches\transforms-3\21a98db4e73366f3cfa6fe91f1d73b0e\transformed\lifecycle-runtime-2.5.0\AndroidManifest.xml:20:5-22:41

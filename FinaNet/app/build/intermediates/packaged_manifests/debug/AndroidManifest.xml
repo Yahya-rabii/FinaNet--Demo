@@ -63,6 +63,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.android.FinaNet.NewContactActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.android.FinaNet.ContactsDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.android.FinaNet.McontactActivity"
+            android:theme="@style/Theme.FinaNetApp" />
+        <activity
             android:name="com.android.FinaNet.MaActivity"
             android:configChanges="orientation|screenSize"
             android:exported="true" />

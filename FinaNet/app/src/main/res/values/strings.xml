@@ -89,5 +89,10 @@
     <string name="confirm_set_message">Are you sure to delete all?</string>
     <string name="confirm_set_positive">Delete</string>
     <string name="toast_onclick">Items deleted</string>
+    <string name="address">Address</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobile_phone">Mobile Phone</string>
+    <string name="edit">Edit</string>
 
 </resources>
