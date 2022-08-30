@@ -1,0 +1,25 @@
+
+apply plugin: 'com.android.library'
+
+group = 'com.github.jrvansuita'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    sourceSets {
+        main.res.srcDirs 'res'
+    }
+    namespace 'com.vansuita.materialabout'
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:1.5.0"
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation "com.github.ItsCalebJones:IconHandler:+"
+}

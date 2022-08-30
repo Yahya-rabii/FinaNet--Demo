@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/empty_view"
+        style="@style/empty_view"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/cover_image"
+            style="@style/cover_image"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/empty_view_text"
+            style="@style/empty_view_text"
+            android:textColor="#03A9F4" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view"
+        style="@style/list_view">
+
+    </ListView>
+
+
+
+    <LinearLayout
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        tools:ignore="BottomAppBar">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_500"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/menu" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_add"
+        app:layout_anchor="@id/bottomAppBar"
+        tools:ignore="ImageContrastCheck" />
+
+</RelativeLayout>

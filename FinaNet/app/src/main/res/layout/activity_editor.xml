@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scrollview"
+    tools:context=".EditorActivity">
+
+    <LinearLayout style="@style/linear_layout_1">
+
+        <TextView
+            android:id="@+id/item_name_title"
+            style="@style/item_name_title" />
+
+        <EditText
+            android:id="@+id/item_name_edit"
+            style="@style/item_name_edit"
+            android:hint="@string/about"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/price_title"
+            style="@style/price_title"
+            android:textColor="#039BE5" />
+
+        <EditText
+            android:id="@+id/price_edit"
+            style="@style/price_edit"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/quantity_title"
+            style="@style/quantity_title" />
+
+        <LinearLayout style="@style/linear_layout_2">
+
+            <ImageButton
+                android:id="@+id/decrease"
+                style="@style/button_decrease"
+                android:contentDescription="@string/action_insert_dummy_data"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/quantity_edit"
+                style="@style/quantity_edit"
+                android:hint="@string/_1"
+                tools:ignore="TouchTargetSizeCheck"
+                android:importantForAutofill="no" />
+
+            <ImageButton
+                android:id="@+id/increase"
+                style="@style/button_increase"
+                android:contentDescription="@string/action_insert_dummy_data"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/supplier_name_title"
+            style="@style/supplier_name_title" />
+
+        <LinearLayout style="@style/linear_layout_2">
+
+            <Spinner
+                android:id="@+id/spinner_supplier"
+                style="@style/spinner"
+                android:contentDescription="@string/about" />
+
+        </LinearLayout>
+
+        <RelativeLayout style="@style/relative_layout2">
+
+            <Button
+                android:id="@+id/get_picture"
+                style="@style/get_picture_button"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/order_items"
+                style="@style/order_button"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/image_view"
+                style="@style/image_view" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

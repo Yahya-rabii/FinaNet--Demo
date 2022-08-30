@@ -1,0 +1,258 @@
+[
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_activity_place_your_order.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\activity_place_your_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_activity_about.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_contact.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_profile.jpg.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\profile.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\raw_fina.json.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\raw\\fina.json"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable-v24_ic_edit_32.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable-v24\\ic_edit_32.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable-v24_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable-v24\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_banner.jpg.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\banner.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_button_bg.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_activity_editor.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\activity_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_activity_ma.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\activity_ma.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_activity_fina_menu.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\activity_fina_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable-v24_ic_delete_32.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable-v24\\ic_delete_32.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_recycler_row.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\recycler_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_place_order_recycler_row.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\place_order_recycler_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_dashboard.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\menu_menueditor.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\menu\\menueditor.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\menu_menu_editor.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\menu\\menu_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_buy_item.png.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\buy_item.png"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_remove_circle.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_remove_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_data.png.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_data.png"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_prducts.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_prducts.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_layout_add_contact.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\layout_add_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_menu_recycler_row.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\menu_recycler_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_add_circle.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_add_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_listitem.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\listitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_about.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_selector.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_button_bg2.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\button_bg2.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_remove_black_24dp.png.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_remove_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_photo.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable-v24_ic_person_add_32.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable-v24\\ic_person_add_32.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_activity_contact.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\activity_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_done_black_24dp.png.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_done_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_done.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\done.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_activity_contact_editor.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\activity_contact_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_add_black_24dp.png.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_add_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\layout_activity_order_succeess.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\layout\\activity_order_succeess.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_empty_box.png.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\empty_box.png"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_suplier.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_suplier.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-merged_res-38:\\drawable_contact.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\7.3.3\\com.android.FinaNet.app-main-40:\\drawable\\contact.xml"
+    }
+]

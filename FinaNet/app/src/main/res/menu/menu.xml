@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/suppro"
+        android:title="@string/fournisseur_produit"
+        android:icon="@drawable/ic_suplier" />
+
+    <item
+        android:id="@+id/nospro"
+        android:title="@string/nos_produit"
+        android:icon="@drawable/ic_prducts" />
+
+
+    <item android:id="@+id/placeholder"
+        android:title="@string/todo" />
+
+    <item
+        android:id="@+id/contact"
+        android:title="@string/nos_contact"
+        android:icon="@drawable/ic_contact" />
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        android:icon="@drawable/ic_about" />
+
+
+</menu>

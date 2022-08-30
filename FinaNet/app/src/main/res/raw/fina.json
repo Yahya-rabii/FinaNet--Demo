@@ -1,0 +1,237 @@
+[
+    {
+      "name":"Sisco",
+      "address":"G9Q5+8HR, Lotiss. La Colline Ii, Casablanca 20100",
+      "delivery_charge": 5,
+      "image":"https://www.1min30.com/wp-content/uploads/2018/07/Symbole-Cisco.jpg",
+
+      "hours":{
+
+        "Monday":"10:00 AM - 9:00 PM",
+        "Tuesday":"10:00 AM - 10:00 PM",
+        "Wednesday":"10:00 AM - 11:00 PM",
+        "Thursday":"10:00 AM - 10:00 PM",
+        "Friday":"10:00 AM - 11:00 PM",
+        "Saturday":"10:00 AM - 2:00 PM",
+        "Sunday":"closed"
+      },
+      "menus": [
+        {
+          "name": "ATA 2nd Gen 42",
+          "price": 599.99,
+          "url": "https://cdn.shopify.com/s/files/1/0218/5640/products/Adtran_908E_front_large.jpg?v=1605110078"
+        },
+        {
+          "name": "ANV 3140 RM - Router  ",
+          "price": 1088.14,
+          "url": "https://m.media-amazon.com/images/I/51EjbM10tdL._AC_SL1371_.jpg"
+        },
+        {
+          "name": "ADTRAN Total Access 850",
+          "price": 2030.22,
+          "url": "https://www.netcomworks.com/images/Total-Access/850-Series/TA-850.jpg"
+        },
+        {
+          "name": "Cisco Business 24T-4G Smart Switch",
+          "price": 500.49,
+          "url": "https://m.media-amazon.com/images/I/71JKyHKK1PL._AC_SL1500_.jpg"
+
+        },
+        {
+          "name": "Cisco Meraki Go PoE Network Switch ",
+          "price": 400.00,
+          "url": "https://m.media-amazon.com/images/I/71AAIWFFr+L._AC_SL1500_.jpg"
+        },
+        {
+          "name": "Cisco Business CBS110-16T-D Unmanaged Switch ",
+          "price": 300.25,
+          "url": "https://m.media-amazon.com/images/I/51SDZO1whMS._AC_SL1500_.jpg"
+        },
+        {
+          "name": "Cisco Systems SG-16HP-NA ",
+          "price": 500.49,
+          "url": "https://m.media-amazon.com/images/I/713GXjdXn8L._AC_SL1500_.jpg"
+        },
+        {
+          "name": "Cisco SF110D-16HP Unmanaged Switch",
+          "price": 500.99,
+          "url": "https://m.media-amazon.com/images/I/71QE9fguUgL._AC_SL1500_.jpg"
+        },
+        {
+          "name": "NETGEAR 12Gg Unmanaged Switch  ",
+          "price": 800.09,
+          "url": "https://m.media-amazon.com/images/I/51kiC0-UGQL._AC_SL1295_.jpg"
+        },
+        {
+          "name": "Gigabit Switch | Easy Smart Managed",
+          "price": 600.49,
+          "url": "https://m.media-amazon.com/images/I/515vRbyfRyL._AC_SL1000_.jpg"
+        }
+      ]
+    },
+    {
+      "name":"Juniper",
+      "address":" Casa Twin Center Tour Ouest - 16è Étage - Casablanca",
+      "delivery_charge": 4,
+      "image":"https://mma.prnewswire.com/media/1156979/Juniper_Logo.jpg?p=publish",
+
+
+
+
+      "hours":{
+        "Monday":"10:00 AM - 10:00 PM",
+        "Tuesday":"10:00 AM - 10:00 PM",
+        "Wednesday":"10:00 AM - 8:00 PM",
+        "Thursday":"10:00 AM - 10:00 PM",
+        "Friday":"11:00 AM - 7:00 PM",
+        "Saturday":"closed",
+        "Sunday":"closed"
+      },
+      "menus": [
+        {
+          "name": "QFX5700 Switche",
+          "price": 2000.99,
+          "url": "https://www.juniper.net/content/dam/www/assets/images/us/en/products/switches/qfx-series/qfx5700/qfx5700-frontwithtop.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+        },
+        {
+          "name": "ACX7100 multiservice router",
+          "price": 300.59,
+          "url": "https://www.juniper.net/content/dam/www/assets/images/us/en/image-library/acx-series/acx7000-generated-product-image/acx7100-32c-front-with-top-generated-product-image.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+        },
+        {
+          "name": "PTX10001-36MR Packet",
+          "price": 553.44,
+          "url": "https://www.juniper.net/content/dam/www/assets/images/us/en/products/routers/ptx-series/ptx10001/ptx10001-36mr-frontwtop.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+        },
+        {
+          "name": "QFX10016 Ethernet Switches",
+          "price": 5490.00,
+          "url": "https://www.juniper.net/content/dam/www/assets/images/us/en/products/switches/qfx-series/qfx10000/qfx10008-left-low.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+        },
+        {
+          "name": "QFX10002 Line of Ethernet Switches",
+          "price": 344.49,
+          "url": "https://www.juniper.net/content/dam/www/assets/images/us/en/products/switches/qfx-series/qfx10000/qfx10002-frontwtop-low.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+        },
+        {
+          "name": "QFX100 Ethernet Switches",
+          "price": 4000.95,
+          "url": "https://www.juniper.net/content/dam/www/assets/images/us/en/products/switches/qfx-series/qfx10000/qfx10008-left-low.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+        },
+        {
+          "name": "EX4100 Ethernet Switch",
+          "price": 3752.59,
+          "url": "https://www.juniper.net/content/dam/www/assets/images/us/en/image-library/ex-series/ex4100-48t-48p/ex4100-48p-rear-low.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+        },
+        {
+          "name": "QFX5120 Switches",
+          "price": 5220.49,
+          "url": "https://www.juniper.net/content/dam/www/assets/images/us/en/products/switches/qfx-series/qfx5120/qfx5120-48y-frontwtop.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+        },
+        {
+          "name": "EX4100 Ethernet Switch",
+          "price": 3233.99,
+          "url": "https://www.juniper.net/content/dam/www/assets/images/us/en/image-library/ex-series/ex4100-48t-48p/ex4100-48p-frontwtop-low.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+        },
+        {
+          "name": "EX4100 Multigigabit Ethernet Switch",
+          "price": 833.29,
+          "url": "https://www.juniper.net/content/dam/www/assets/images/us/en/image-library/ex-series/ex4100-mg/ex4100-mg-48p-frontwtop-low.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+        }
+      ]
+    },
+  {
+    "name":"Barracuda",
+    "address":"10975 State Bridge Rd.",
+    "delivery_charge": 5,
+    "image":"https://logos-marques.com/wp-content/uploads/2022/04/Barracuda-Networks-logo-500x281.png",
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"9:00 AM - 2:00 PM"
+    },
+    "menus": [
+      {
+        "name": "Web Filter 610 firewall",
+        "price": 400.95,
+        "url": "https://www.lasystems.be/media/catalog/product/cache/1/image/393x393/9df78eab33525d08d6e5fb8d27136e95/7/0/70581_img_14886893_medium_1481880552_4753_16128.jpg"
+      },
+      {
+        "name": "CudaCam",
+        "price": 399.59,
+        "url": "https://www.hulanetworks.com/px/cudacam.png"
+      },
+      {
+        "name": "NextGen Firewall S",
+        "price": 500.49,
+        "url": "https://www.hulanetworks.com/px/barracuda-nextgen.png"
+      },
+      {
+        "name": "Barracuda Security Gateways",
+        "price": 3000.99,
+        "url": "https://www.hulanetworks.com/px/barracuda-gateways.png"
+      },
+      {
+        "name": "Web Application Firewall 1060",
+        "price": 800.29,
+        "url": "https://www.hulanetworks.com/px/barracuda-WAF.png"
+      },
+      {
+        "name": "Barracuda E-mail Security Gateway ",
+        "price": 6.99,
+        "url": "https://i3.wp.com/loophold.com/wp-content/uploads/2021/01/Barracuda-Networks-SpamFirewall-400.png"
+      }
+    ]
+  },
+  {
+    "name":"ADTRAN",
+    "address":"8777 windward pkwy.",
+    "delivery_charge": 6,
+    "image":"https://imperiumdatanetworks.com/wp-content/uploads/2020/02/Adtran-300x87.png",
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"10:00 AM - 3:00 PM"
+    },
+    "menus": [
+      {
+        "name": "NetVanta 1638 with ActivChassis",
+        "price": 499.00,
+        "url": "https://www.netcomworks.com/images/NetVanta/1600-Series/NV-1638.jpg"
+      },
+      {
+        "name": "ADTRAN NetVanta 1550-48P 52Port",
+        "price": 399.25,
+        "url": "https://www.voipsupply.com/media/catalog/product/cache/2/thumbnail/600x600/040ec09b1e35df139433887a97daa66f/a/d/adtran_netvanta_1550_48p.jpg"
+      },
+      {
+        "name": "Adtran Total Access 908e IP Business Gateway",
+        "price": 500.49,
+        "url": "https://m.media-amazon.com/images/I/410YEF3YphL._AC_SL1142_.jpg"
+      },
+      {
+        "name": "Adtran NetVanta 1238 Ethernet Switch",
+        "price": 300.99,
+        "url": "https://cdn11.bigcommerce.com/s-hyvuk5yhxp/images/stencil/1280x1280/products/1521/1580/Adtran_1238__46204.1566327632.1280.1280__56706.1566335183.jpg?c=2"
+      },
+      {
+        "name": "Adtran NetVanta 4430 Chassis with Enhanched Feature Pack ",
+        "price": 800.09,
+        "url": "https://cdn11.bigcommerce.com/s-hyvuk5yhxp/images/stencil/1280x1280/products/1554/494/101_1489__93018.1544652698.1280.1280__33389.1544655017.jpg?c=2"
+      },
+      {
+        "name": "Adtran Netvanta 1234 24 Port Switch",
+        "price": 600.49,
+        "url": "https://cdn11.bigcommerce.com/s-hyvuk5yhxp/images/stencil/1280x1280/products/1065/755/adtran-netvanta-1234-24-port-10-100-switch-1700594g1-lot-of-2__17040.1548783207.jpg?c=2"
+      }
+    ]
+  }
+]
