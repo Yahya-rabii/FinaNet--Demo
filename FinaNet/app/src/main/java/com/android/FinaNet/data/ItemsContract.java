@@ -84,13 +84,13 @@ public class ItemsContract {
         public static final String COLUMN_ITEM_PICTURE = "picture";
         public static final String COLUMN_ITEM_SOLD = "sales";
 
-        public static final int SUPPLIER_UNKNOWN = 0;
-        public static final int SUPPLIER_MILAN = 1;
-        public static final int SUPPLIER_BIC = 2;
-        public static final int SUPPLIER_STAEDTLER = 3;
+        public static final int SUPPLIER_CISCO = 0;
+        public static final int SUPPLIER_JUNIPER = 1;
+        public static final int SUPPLIER_BARRACUDA = 2;
+        public static final int SUPPLIER_ADTRAN = 3;
 
         public static boolean isValidSupplier(int supplier) {
-            if (supplier == SUPPLIER_UNKNOWN || supplier == SUPPLIER_MILAN || supplier == SUPPLIER_BIC || supplier == SUPPLIER_STAEDTLER) {
+            if (supplier == SUPPLIER_CISCO || supplier == SUPPLIER_JUNIPER || supplier == SUPPLIER_BARRACUDA || supplier == SUPPLIER_ADTRAN) {
                 return true;
             }
             return false;

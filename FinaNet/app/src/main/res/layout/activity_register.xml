@@ -61,12 +61,14 @@
 
             <com.google.android.material.textfield.TextInputEditText
 
-            android:id="@+id/signUpPasswordTextInput"
+                android:id="@+id/signUpPasswordTextInput"
 
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/password"
-            android:inputType="textPassword"/>
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColorHint="#757575"
+                tools:ignore="TextContrastCheck" />
         </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -78,12 +80,13 @@
 
 
         <com.google.android.material.button.MaterialButton
-        android:id="@+id/signUpButton"
+            android:id="@+id/signUpButton"
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="@string/register"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/register"
+            tools:ignore="TextContrastCheck" />
 
         <TextView
             android:id="@+id/signUpErrorView"

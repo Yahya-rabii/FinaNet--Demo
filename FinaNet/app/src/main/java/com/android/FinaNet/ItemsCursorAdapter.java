@@ -103,16 +103,16 @@ public class ItemsCursorAdapter extends CursorAdapter {
         final String nameSupplier;
         switch (supplierName) {
             case 1:
-                nameSupplier = "Milan";
+                nameSupplier = "Juniper";
                 break;
             case 2:
-                nameSupplier = "Bic";
+                nameSupplier = "Barracuda";
                 break;
             case 3:
-                nameSupplier = "Staedtler";
+                nameSupplier = "Adtran";
                 break;
             default:
-                nameSupplier = "Unknown";
+                nameSupplier = "Cisco";
                 break;
         }
 

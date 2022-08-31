@@ -74,10 +74,10 @@
     <string name="discard">Discard changes</string>
     <string name="keep_editing">Keep edition</string>
     <string name="get_picture">Choose picture</string>
-    <string name="supplier_unknown">Unknown</string>
-    <string name="supplier_Milan">Milan</string>
-    <string name="supplier_Bic">Bic</string>
-    <string name="supplier_Staedtler">Staedtler</string>
+    <string name="supplier_Cisco">Cisco</string>
+    <string name="supplier_Juniper">Juniper</string>
+    <string name="supplier_Barracuda">Barracuda</string>
+    <string name="supplier_Adtran">Adtran</string>
     <string name="incorrect_entry">Please, fill all the details</string>
     <string name="successful_insert">Item saved</string>
     <string name="failure_insert">Insert failed</string>
@@ -94,5 +94,24 @@
     <string name="last_name">Last Name</string>
     <string name="mobile_phone">Mobile Phone</string>
     <string name="edit">Edit</string>
+    <string name="enter_your_region">Enter your region</string>
+    <string name="card_details">Card Details</string>
+    <string name="customer_details">Customer Details</string>
+    <string name="pickup">Pickup</string>
+    <string name="delivery">Delivery</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="enter_your_city">Enter your city</string>
+    <string name="enter_your_zip">Enter your zip</string>
+    <string name="enter_card_number">Enter Card Number</string>
+    <string name="enter_card_expiry_mm_yyyy">Enter Card expiry(mm/yyyy)</string>
+    <string name="enter_card_expiry_dd_mm_yyyy">enter card expiry (dd/mm/yyyy)</string>
+    <string name="enter_card_pin_3_digits">Enter Card pin(3 digits)</string>
+    <string name="total_items_in_cart">Total items in cart</string>
+    <string name="sub_total">Sub total</string>
+    <string name="_0_0">$0.0</string>
+    <string name="delivery_charge">Delivery Charge</string>
+    <string name="total">Total</string>
+    <string name="place_your_order">Place your order</string>
 
 </resources>

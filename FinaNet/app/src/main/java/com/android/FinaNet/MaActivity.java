@@ -167,11 +167,11 @@ public class MaActivity extends AppCompatActivity implements LoaderManager.Loade
 
     private void insertItem() {
         ContentValues values = new ContentValues();
-        values.put(ItemsContract.ItemsEntry.COLUMN_ITEM_NAME, "Scissors");
-        values.put(ItemsContract.ItemsEntry.COLUMN_ITEM_PRICE, "5");
+        values.put(ItemsContract.ItemsEntry.COLUMN_ITEM_NAME, "QFX5700 SWITCHE");
+        values.put(ItemsContract.ItemsEntry.COLUMN_ITEM_PRICE, "500");
         values.put(ItemsContract.ItemsEntry.COLUMN_ITEM_QUANTITY, "10");
-        values.put(ItemsContract.ItemsEntry.COLUMN_SUPPLIER_NAME, ItemsContract.ItemsEntry.SUPPLIER_BIC);
-        values.put(ItemsContract.ItemsEntry.COLUMN_ITEM_PICTURE, R.drawable.ic_launcher_round);
+        values.put(ItemsContract.ItemsEntry.COLUMN_SUPPLIER_NAME, ItemsContract.ItemsEntry.SUPPLIER_BARRACUDA);
+        values.put(ItemsContract.ItemsEntry.COLUMN_ITEM_PICTURE, R.drawable.adswi);
         values.put(ItemsContract.ItemsEntry.COLUMN_ITEM_SOLD, 0);
 
         Uri newUri = getContentResolver().insert(ItemsContract.ItemsEntry.CONTENT_URI, values);

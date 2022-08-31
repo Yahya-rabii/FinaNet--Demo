@@ -15,7 +15,9 @@
             android:id="@+id/item_name_edit"
             style="@style/item_name_edit"
             android:hint="@string/about"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:importantForAutofill="no"
+            android:inputType="text" />
 
         <TextView
             android:id="@+id/price_title"
@@ -25,7 +27,8 @@
         <EditText
             android:id="@+id/price_edit"
             style="@style/price_edit"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:importantForAutofill="no" />
 
         <TextView
             android:id="@+id/quantity_title"
@@ -81,7 +84,8 @@
 
             <ImageView
                 android:id="@+id/image_view"
-                style="@style/image_view" />
+                style="@style/image_view"
+                android:contentDescription="@string/todo" />
 
         </RelativeLayout>
 

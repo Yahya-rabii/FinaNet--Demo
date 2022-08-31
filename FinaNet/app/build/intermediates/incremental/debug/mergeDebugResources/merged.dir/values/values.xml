@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="array_supplier_options">
-        <item>@string/supplier_unknown</item>
-        <item>@string/supplier_Milan</item>
-        <item>@string/supplier_Bic</item>
-        <item>@string/supplier_Staedtler</item>
+        <item>@string/supplier_Cisco</item>
+        <item>@string/supplier_Juniper</item>
+        <item>@string/supplier_Barracuda</item>
+        <item>@string/supplier_Adtran</item>
     </string-array>
     <attr format="enum" name="animateCircleAngleTo">
         <enum name="bestChoice" value="0"/>
@@ -1606,6 +1606,7 @@
     <item quantity="one"><ns2:g id="count">%d</ns2:g> new notification</item>
     <item quantity="other"><ns2:g id="count">%d</ns2:g> new notifications</item>
   </plurals>
+    <string name="_0_0">$0.0</string>
     <string name="_1">1</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
@@ -1648,6 +1649,7 @@
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string description="A description of an action that a user of an accessibility service can perform to expand a bottomsheet halfway to its full height. [CHAR LIMIT=25]" name="bottomsheet_action_expand_halfway">Expand halfway</string>
     <string name="cancel">Cancel</string>
+    <string name="card_details">Card Details</string>
     <string name="change_picture">Change picture</string>
     <string name="changelog">ChangeLog</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
@@ -1678,6 +1680,7 @@
     <string name="confirm_set_message">Are you sure to delete all?</string>
     <string name="confirm_set_positive">Delete</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="customer_details">Customer Details</string>
     <string name="dashboard">dashboard</string>
     <string name="dashbord">dashbord</string>
     <string name="default_web_client_id" translatable="false">978615791533-8t5j2tcuaucdoiekkphl2kqsnlus120f.apps.googleusercontent.com</string>
@@ -1685,6 +1688,8 @@
     <string name="delete_item_failed">Error with deleting item</string>
     <string name="delete_item_successful">Item deleted</string>
     <string name="delete_message">Are you sure you want to delete your order?</string>
+    <string name="delivery">Delivery</string>
+    <string name="delivery_charge">Delivery Charge</string>
     <string name="desc_btn_add">desc btn add</string>
     <string name="desc_btn_delete">desc btn delete</string>
     <string name="desc_btn_edit">desc btn edit</string>
@@ -1697,6 +1702,15 @@
     <string name="email">Email</string>
     <string name="email_verify_again">email_verify_again</string>
     <string name="empty_list_hint">Add some items to your inventory</string>
+    <string name="enter_card_expiry_dd_mm_yyyy">enter card expiry (dd/mm/yyyy)</string>
+    <string name="enter_card_expiry_mm_yyyy">Enter Card expiry(mm/yyyy)</string>
+    <string name="enter_card_number">Enter Card Number</string>
+    <string name="enter_card_pin_3_digits">Enter Card pin(3 digits)</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="enter_your_city">Enter your city</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_region">Enter your region</string>
+    <string name="enter_your_zip">Enter your zip</string>
     <string name="error">Error</string>
     <string name="error_icon_content_description">Error</string>
     <string name="error_view">error_view</string>
@@ -1849,6 +1863,8 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="phone">phone</string>
+    <string name="pickup">Pickup</string>
+    <string name="place_your_order">Place your order</string>
     <string name="price_title">Price</string>
     <string name="privacy">Privacy Policy</string>
     <string name="project_id" translatable="false">finanet</string>
@@ -1865,16 +1881,19 @@
     <string name="sign_in">sign_in</string>
     <string name="skype">Skype</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="sub_total">Sub total</string>
     <string name="successful_insert">Item saved</string>
     <string name="successful_update">Item updated</string>
-    <string name="supplier_Bic">Bic</string>
-    <string name="supplier_Milan">Milan</string>
-    <string name="supplier_Staedtler">Staedtler</string>
+    <string name="supplier_Adtran">Adtran</string>
+    <string name="supplier_Barracuda">Barracuda</string>
+    <string name="supplier_Cisco">Cisco</string>
+    <string name="supplier_Juniper">Juniper</string>
     <string name="supplier_name_title">Supplier Name</string>
-    <string name="supplier_unknown">Unknown</string>
     <string name="tandc">TandC</string>
     <string name="toast_onclick">Items deleted</string>
     <string name="todo">TODO</string>
+    <string name="total">Total</string>
+    <string name="total_items_in_cart">Total items in cart</string>
     <string name="twitter">Twitter</string>
     <string name="unsaved_changes_dialog_msg">Are you sure to continue without saving last changes?</string>
     <string name="update_app">Update this app</string>

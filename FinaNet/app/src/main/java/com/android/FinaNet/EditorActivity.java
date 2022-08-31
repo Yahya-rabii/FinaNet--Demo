@@ -46,7 +46,6 @@ import static com.bumptech.glide.load.resource.drawable.DrawableTransitionOption
  * Created by beita on 10/07/2017.
  */
 import android.Manifest;
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.LoaderManager;
@@ -100,7 +99,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
     private EditText mQuantityEditText;
     private ImageView mImageView;
     private Spinner mSupplierSpinner;
-    private int mSupplier = ItemsContract.ItemsEntry.SUPPLIER_UNKNOWN;
+    private int mSupplier = ItemsContract.ItemsEntry.SUPPLIER_CISCO;
     private boolean mItemHasChanged = false;
     private String currentPhotoUri;
 
@@ -213,23 +212,23 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String selection = (String) parent.getItemAtPosition(position);
                 if (!TextUtils.isEmpty(selection)) {
-                    if (selection.equals(getString(R.string.supplier_Milan))) {
-                        mSupplier = ItemsContract.ItemsEntry.SUPPLIER_MILAN;
-                    } else if (selection.equals(getString(R.string.supplier_Bic))) {
-                        mSupplier = ItemsContract.ItemsEntry.SUPPLIER_BIC;
-                    } else if (selection.equals(getString(R.string.supplier_Staedtler))) {
-                        mSupplier = ItemsContract.ItemsEntry.SUPPLIER_STAEDTLER;
-                    } else if (selection.equals(getString(R.string.supplier_Staedtler))) {
-                        mSupplier = ItemsContract.ItemsEntry.SUPPLIER_STAEDTLER;
+                    if (selection.equals(getString(R.string.supplier_Juniper))) {
+                        mSupplier = ItemsContract.ItemsEntry.SUPPLIER_JUNIPER;
+                    } else if (selection.equals(getString(R.string.supplier_Barracuda))) {
+                        mSupplier = ItemsContract.ItemsEntry.SUPPLIER_BARRACUDA;
+                    } else if (selection.equals(getString(R.string.supplier_Adtran))) {
+                        mSupplier = ItemsContract.ItemsEntry.SUPPLIER_ADTRAN;
+                    } else if (selection.equals(getString(R.string.supplier_Adtran))) {
+                        mSupplier = ItemsContract.ItemsEntry.SUPPLIER_ADTRAN;
                     } else {
-                        mSupplier = ItemsContract.ItemsEntry.SUPPLIER_UNKNOWN;
+                        mSupplier = ItemsContract.ItemsEntry.SUPPLIER_CISCO;
                     }
                 }
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-                mSupplier = ItemsContract.ItemsEntry.SUPPLIER_UNKNOWN;
+                mSupplier = ItemsContract.ItemsEntry.SUPPLIER_CISCO;
             }
         });
     }
@@ -317,7 +316,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
 
 
         if (TextUtils.isEmpty(itemName) || TextUtils.isEmpty(quantity) || TextUtils.isEmpty(price)
-                || mSupplier == ItemsContract.ItemsEntry.SUPPLIER_UNKNOWN || currentPhotoUri == null) {
+                || currentPhotoUri == null) {
             Toast.makeText(this, getString(R.string.incorrect_entry), Toast.LENGTH_SHORT).show();
             return;
         }
@@ -449,19 +448,19 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
             currentPhotoUri = cursor.getString(pictureColumnIndex);
 
             // Supplier is a dropdown spinner, so map the constant value from the database
-            // into one of the dropdown options (0 is Unknown, 1 is Milan, 2 is Bic, 3 is Staedtler).
+            // into one of the dropdown options .
             // Then call setSelection() so that option is displayed on screen as the current selection.
             switch (supplier) {
-                case ItemsContract.ItemsEntry.SUPPLIER_MILAN:
+                case ItemsContract.ItemsEntry.SUPPLIER_JUNIPER:
                     mSupplierSpinner.setSelection(1);
                     break;
-                case ItemsContract.ItemsEntry.SUPPLIER_BIC:
+                case ItemsContract.ItemsEntry.SUPPLIER_BARRACUDA:
                     mSupplierSpinner.setSelection(2);
                     break;
-                case ItemsContract.ItemsEntry.SUPPLIER_STAEDTLER:
+                case ItemsContract.ItemsEntry.SUPPLIER_ADTRAN:
                     mSupplierSpinner.setSelection(3);
                     break;
-                case ItemsContract.ItemsEntry.SUPPLIER_UNKNOWN:
+                case ItemsContract.ItemsEntry.SUPPLIER_CISCO:
                     mSupplierSpinner.setSelection(0);
                     break;
             }
