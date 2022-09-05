@@ -47,7 +47,6 @@ import android.app.LoaderManager;
 import android.content.ContentUris;
 import android.content.ContentValues;
 import android.content.CursorLoader;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.Loader;
 import android.database.Cursor;
@@ -57,14 +56,11 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import com.android.FinaNet.data.ItemsContract;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -76,6 +72,7 @@ public class MaActivity extends AppCompatActivity implements LoaderManager.Loade
     BottomNavigationView bottomNavigationView;
 
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,34 +87,30 @@ public class MaActivity extends AppCompatActivity implements LoaderManager.Loade
 
         bottomNavigationView = findViewById(R.id.bottom_navigator);
         bottomNavigationView.setSelectedItemId(R.id.nospro);
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @SuppressLint("NonConstantResourceId")
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
 
-                switch (item.getItemId()) {
+            switch (item.getItemId()) {
 
-                    case R.id.about:
-                        startActivity(new Intent(getApplicationContext(), about.class));
-                        overridePendingTransition(0, 0);
-                        return true;
+                case R.id.about:
+                    startActivity(new Intent(getApplicationContext(), about.class));
+                    overridePendingTransition(0, 0);
+                    return true;
 
-                    case R.id.suppro:
-                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                        overridePendingTransition(0, 0);
-                        return true;
+                case R.id.suppro:
+                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                    overridePendingTransition(0, 0);
+                    return true;
 
-                    case R.id.contact:
-                        startActivity(new Intent(getApplicationContext(), McontactActivity.class));
-                        overridePendingTransition(0, 0);
-                        return true;
+                case R.id.contact:
+                    startActivity(new Intent(getApplicationContext(), McontactActivity.class));
+                    overridePendingTransition(0, 0);
+                    return true;
 
-                    case R.id.nospro:
-                        return true;
+                case R.id.nospro:
+                    return true;
 
-                    default:
-                        return false;
-                }
+                default:
+                    return false;
             }
         });
 
@@ -130,35 +123,30 @@ public class MaActivity extends AppCompatActivity implements LoaderManager.Loade
 
 
 
-        final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.floating_button);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MaActivity.this, EditorActivity.class);
-                startActivity(intent);
+        final FloatingActionButton fab = findViewById(R.id.floating_button);
+        fab.setOnClickListener(view -> {
+            Intent intent = new Intent(MaActivity.this, EditorActivity.class);
+            startActivity(intent);
 
-            }
         });
 
-        ListView itemListView = (ListView) findViewById(R.id.list_view);
+        ListView itemListView = findViewById(R.id.list_view);
 
-        View emptyView = findViewById(R.id.empty_view);
+        View emptyView;
+        emptyView = findViewById(R.id.empty_view);
         itemListView.setEmptyView(emptyView);
 
         mCursorAdapter = new ItemsCursorAdapter(this, null);
         itemListView.setAdapter(mCursorAdapter);
 
-        itemListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                Intent intent = new Intent(MaActivity.this, EditorActivity.class);
+        itemListView.setOnItemClickListener((adapterView, view, position, id) -> {
+            Intent intent = new Intent(MaActivity.this, EditorActivity.class);
 
-                Uri currentItemUri = ContentUris.withAppendedId(ItemsContract.ItemsEntry.CONTENT_URI, id);
+            Uri currentItemUri = ContentUris.withAppendedId(ItemsContract.ItemsEntry.CONTENT_URI, id);
 
-                intent.setData(currentItemUri);
+            intent.setData(currentItemUri);
 
-                startActivity(intent);
-            }
+            startActivity(intent);
         });
 
         // Kick off the loader
@@ -180,17 +168,13 @@ public class MaActivity extends AppCompatActivity implements LoaderManager.Loade
     private void showDeleteConfirmationDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage(R.string.confirm_set_message);
-        builder.setPositiveButton(R.string.confirm_set_positive, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int id) {
-                deleteAllItems();
-                Toast.makeText(MaActivity.this, R.string.toast_onclick, Toast.LENGTH_SHORT).show();
-            }
+        builder.setPositiveButton(R.string.confirm_set_positive, (dialog, id) -> {
+            deleteAllItems();
+            Toast.makeText(MaActivity.this, R.string.toast_onclick, Toast.LENGTH_SHORT).show();
         });
-        builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int id) {
-                if (dialog != null) {
-                    dialog.dismiss();
-                }
+        builder.setNegativeButton(R.string.cancel, (dialog, id) -> {
+            if (dialog != null) {
+                dialog.dismiss();
             }
         });
         AlertDialog alertDialog = builder.create();
@@ -206,13 +190,14 @@ public class MaActivity extends AppCompatActivity implements LoaderManager.Loade
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(@NonNull Menu menu) {
         // Inflate the menu options from the res/menu/menu_main.xml file.
         // This adds menu items to the app bar.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {

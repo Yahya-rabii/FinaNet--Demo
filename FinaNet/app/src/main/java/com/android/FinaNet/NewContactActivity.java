@@ -13,6 +13,8 @@ import androidx.room.Room;
 import com.android.FinaNet.interfaces.IContactDAO;
 import com.android.FinaNet.models.Contacts;
 
+import java.util.Objects;
+
 public class NewContactActivity extends AppCompatActivity implements View.OnClickListener {
 
     /**
@@ -52,15 +54,10 @@ public class NewContactActivity extends AppCompatActivity implements View.OnClic
         // initialize views
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle(null);
+        Objects.requireNonNull(getSupportActionBar()).setTitle(null);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+        toolbar.setNavigationOnClickListener(v -> finish());
         firstName = findViewById(R.id.First_Name);
         lastName = findViewById(R.id.Last_Name);
         phoneNumber = findViewById(R.id.Phone_Number);
@@ -129,15 +126,15 @@ public class NewContactActivity extends AppCompatActivity implements View.OnClic
             email.setError("cannot be empty");
         }
 
+        Contacts contacts;
         if (isEditing){
-            Contacts contacts = new Contacts(contactsDetails.getUid(), firstName_s, lastName_s, phoneNumber_s, email_s,address_s);
+            contacts = new Contacts(contactsDetails.getUid(), firstName_s, lastName_s, phoneNumber_s, email_s, address_s);
             contactDAO.updateContacts(contacts);
-            finish();
         }else {
-            Contacts contacts = new Contacts(0, firstName_s, lastName_s, phoneNumber_s, email_s,address_s);
+            contacts = new Contacts(0, firstName_s, lastName_s, phoneNumber_s, email_s, address_s);
             contactDAO.insertContacts(contacts);
-            finish();
         }
+        finish();
     }
 
 }

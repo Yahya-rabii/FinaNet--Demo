@@ -10439,17 +10439,17 @@
         <item>@string/supplier_Juniper</item>
         <item>@string/supplier_Barracuda</item>
         <item>@string/supplier_Adtran</item>
-    </string-array></file><file path="C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\res\values\colors.xml" qualifiers=""><color name="purple_200">#FFccefff</color><color name="purple_500">#FF66ccff</color><color name="purple_700">#FF66ccff</color><color name="teal_200">#FF03DAC5</color><color name="teal_700">#FF018786</color><color name="black">#FF000000</color><color name="white">#FFFFFFFF</color><color name="colorPrimary">#E91E63</color><color name="colorPrimaryDark">#C2185B</color><color name="colorAccent">#FF03DAC5</color><color name="buttonText">#FFFFFF</color><color name="colorItemName">#3F51B5</color></file><file path="C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="fab_margin">16dp</dimen></file><file path="C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">Fina-Net</string><string name="your_main_suplier">your_main_suplier</string><string name="register_user">Register User</string><string name="fina_net">Fina-Net</string><string name="email">Email</string><string name="password">Password</string><string name="age">Age</string><string name="full_name">Full Name</string><string name="login">login</string><string name="register">Register</string><string name="already_registered">Already registered</string><string name="login_here">Login here</string><string name="not_registered_yet">Not registered yet</string><string name="register_here">Register here</string><string name="phone">phone</string><string name="error_view">error_view</string><string name="tandc">TandC</string><string name="reset_password">reset_password</string><string name="todo">TODO</string><string name="sign_in">sign_in</string><string name="email_verify_again">email_verify_again</string><string name="click_here">click_here</string><string name="or">or</string><string name="forgote_password">forgote password</string><string name="forgot_password">forgot password</string><string name="logout">Logout</string><string name="checkout">Checkout</string><string name="order_places_successfully">Order places successfully.</string><string name="done">Done</string><string name="add_to_cart">Add to cart</string><string name="_1">1</string><string name="dashbord">dashbord</string><string name="dashboard">dashboard</string><string name="home">home</string><string name="about">about</string><string name="hello_there">hello there</string><string name="nos_contact">nos contact</string><string name="fournisseur_produit"><![CDATA[fournisseur & produit]]></string><string name="nos_produit">nos produit</string><string name="label_contact_name">label contact name</string><string name="value_contact_name">value contact name</string><string name="value_contact_phone">value contact phone</string><string name="label_contact_phone">label contact phone</string><string name="value_contact_email">value contact email</string><string name="label_contact_email">label contact email</string><string name="label_contact_address">label contact address</string><string name="value_contact_address">value contact address</string><string name="label_btn_back">label btn back</string><string name="label_btn_edit">label btn edit</string><string name="label_btn_add">label btn add</string><string name="desc_btn_add">desc btn add</string><string name="desc_btn_edit">desc btn edit</string><string name="desc_btn_delete">desc btn delete</string><string name="label_button_logout">label button logout</string><string name="new_item">Add new item</string><string name="supplier_name_title">Supplier Name</string><string name="quantity_title">Quantity</string><string name="price_title">Price</string><string name="item_name_title">Item Name</string><string name="save">Save item</string><string name="editor_activity_title_edit_item">Edit item</string><string name="menu_delete_item">Delete item</string><string name="menu_delete_all">Delete all info</string><string name="delete_message">Are you sure you want to delete your order?</string><string name="delete">Accept</string><string name="cancel">Cancel</string><string name="empty_list_hint">Add some items to your inventory</string><string name="action_insert_dummy_data">Add Dummy Data</string><string name="change_picture">Change picture</string><string name="unsaved_changes_dialog_msg">Are you sure to continue without saving last changes?</string><string name="discard">Discard changes</string><string name="keep_editing">Keep edition</string><string name="get_picture">Choose picture</string><string name="supplier_Cisco">Cisco</string><string name="supplier_Juniper">Juniper</string><string name="supplier_Barracuda">Barracuda</string><string name="supplier_Adtran">Adtran</string><string name="incorrect_entry">Please, fill all the details</string><string name="successful_insert">Item saved</string><string name="failure_insert">Insert failed</string><string name="successful_update">Item updated</string><string name="failed_update">Item not updated</string><string name="delete_item_successful">Item deleted</string><string name="delete_item_failed">Error with deleting item</string><string name="goods_request">Goods request</string><string name="confirm_set_message">Are you sure to delete all?</string><string name="confirm_set_positive">Delete</string><string name="toast_onclick">Items deleted</string><string name="address">Address</string><string name="first_name">First Name</string><string name="last_name">Last Name</string><string name="mobile_phone">Mobile Phone</string><string name="edit">Edit</string><string name="sub_total">Sub total</string><string name="enter_card_number">Enter Card Number</string><string name="enter_your_city">Enter your city</string><string name="enter_card_expiry_dd_mm_yyyy">enter card expiry (dd/mm/yyyy)</string><string name="total">Total</string><string name="enter_your_name">Enter your name</string><string name="enter_your_zip">Enter your zip</string><string name="_0_0">$0.0</string><string name="enter_your_address">Enter your address</string><string name="delivery">Delivery</string><string name="total_items_in_cart">Total items in cart</string><string name="enter_card_pin_3_digits">Enter Card pin(3 digits)</string><string name="delivery_charge">Delivery Charge</string><string name="card_details">Card Details</string><string name="enter_your_region">Enter your region</string><string name="customer_details">Customer Details</string><string name="pickup">Pickup</string><string name="place_your_order">Place your order</string><string name="enter_card_expiry_mm_yyyy">Enter Card expiry(mm/yyyy)</string></file><file path="C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </string-array></file><file path="C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\res\values\colors.xml" qualifiers=""><color name="teal_200">#FF66ccff</color><color name="black">#FF000000</color><color name="white">#FFFFFFFF</color><color name="purple_700">#23759E</color><color name="purple_200">#FFccefff</color><color name="colorAccent">#FF03DAC5</color><color name="purple_500">#23759E</color><color name="colorItemName">#3F51B5</color><color name="teal_700">#FF018786</color><color name="buttonText">#FFFFFF</color></file><file path="C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="fab_margin">16dp</dimen></file><file path="C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">Fina-Net</string><string name="your_main_suplier">your main suplier</string><string name="register_user">Register User</string><string name="fina_net">Fina-Net</string><string name="email">Email</string><string name="password">Password</string><string name="age">Age</string><string name="full_name">Full Name</string><string name="login">login</string><string name="register">Register</string><string name="already_registered">Already registered</string><string name="login_here">Login here</string><string name="not_registered_yet">Not registered yet</string><string name="register_here">Register here</string><string name="phone">phone</string><string name="error_view">error view</string><string name="tandc">TandC</string><string name="reset_password">reset password</string><string name="todo">TODO</string><string name="sign_in">sign in</string><string name="email_verify_again">email verify again</string><string name="click_here">click here</string><string name="or">or</string><string name="forgot_password">forgot password</string><string name="logout">Logout</string><string name="checkout">Checkout</string><string name="order_places_successfully">Order places successfully.</string><string name="done">Done</string><string name="add_to_cart">Add to cart</string><string name="_1">1</string><string name="dashboard">dashboard</string><string name="home">home</string><string name="about">about</string><string name="hello_there">hello there</string><string name="nos_contact">nos contact</string><string name="fournisseur_produit"><![CDATA[fournisseur & produit]]></string><string name="nos_produit">nos produit</string><string name="label_contact_name">label contact name</string><string name="value_contact_name">value contact name</string><string name="value_contact_phone">value contact phone</string><string name="label_contact_phone">label contact phone</string><string name="value_contact_email">value contact email</string><string name="label_contact_email">label contact email</string><string name="label_contact_address">label contact address</string><string name="value_contact_address">value contact address</string><string name="label_btn_back">label btn back</string><string name="label_btn_edit">label btn edit</string><string name="label_btn_add">label btn add</string><string name="desc_btn_add">desc btn add</string><string name="desc_btn_edit">desc btn edit</string><string name="desc_btn_delete">desc btn delete</string><string name="label_button_logout">label button logout</string><string name="new_item">Add new item</string><string name="supplier_name_title">Supplier Name</string><string name="quantity_title">Quantity</string><string name="price_title">Price</string><string name="item_name_title">Item Name</string><string name="save">Save item</string><string name="editor_activity_title_edit_item">Edit item</string><string name="menu_delete_item">Delete item</string><string name="menu_delete_all">Delete all info</string><string name="delete_message">Are you sure you want to delete your order?</string><string name="delete">Accept</string><string name="cancel">Cancel</string><string name="empty_list_hint">Add some items to your inventory</string><string name="action_insert_dummy_data">Add Dummy Data</string><string name="change_picture">Change picture</string><string name="unsaved_changes_dialog_msg">Are you sure to continue without saving last changes?</string><string name="discard">Discard changes</string><string name="keep_editing">Keep edition</string><string name="get_picture">Choose picture</string><string name="supplier_Cisco">Cisco</string><string name="supplier_Juniper">Juniper</string><string name="supplier_Barracuda">Barracuda</string><string name="supplier_Adtran">Adtran</string><string name="incorrect_entry">Please, fill all the details</string><string name="successful_insert">Item saved</string><string name="failure_insert">Insert failed</string><string name="successful_update">Item updated</string><string name="failed_update">Item not updated</string><string name="delete_item_successful">Item deleted</string><string name="delete_item_failed">Error with deleting item</string><string name="goods_request">Goods request</string><string name="confirm_set_message">Are you sure to delete all?</string><string name="confirm_set_positive">Delete</string><string name="toast_onclick">Items deleted</string><string name="address">Address</string><string name="first_name">First Name</string><string name="last_name">Last Name</string><string name="mobile_phone">Mobile Phone</string><string name="edit">Edit</string><string name="enter_your_region">Enter your region</string><string name="card_details">Card Details</string><string name="customer_details">Customer Details</string><string name="pickup">Pickup</string><string name="delivery">Delivery</string><string name="enter_your_name">Enter your name</string><string name="enter_your_address">Enter your address</string><string name="enter_your_city">Enter your city</string><string name="enter_your_zip">Enter your zip</string><string name="enter_card_number">Enter Card Number</string><string name="enter_card_expiry_dd_mm_yyyy">enter card expiry (dd/mm/yyyy)</string><string name="enter_card_pin_3_digits">Enter Card pin(3 digits)</string><string name="total_items_in_cart">Total items in cart</string><string name="sub_total">Sub total</string><string name="_0_0">$0.0</string><string name="delivery_charge">Delivery Charge</string><string name="total">Total</string><string name="place_your_order">Place your order</string><string name="terms_and_conditions">terms and conditions</string></file><file path="C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
         <item name="colorPrimaryDark">@color/purple_500</item>
-        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorAccent">@color/purple_500</item>
 
 
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         
-        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondary">@color/purple_500</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         
@@ -10462,7 +10462,7 @@
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
         <item name="android:textSize">24sp</item>
-        <item name="android:textColor">#2196F3</item>
+        <item name="android:textColor">#23759E</item>
     </style><style name="item_name_edit">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -10477,7 +10477,7 @@
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
         <item name="android:textSize">24sp</item>
-        <item name="android:textColor">#03A9F4</item>
+        <item name="android:textColor">#23759E</item>
 
     </style><style name="price_edit">
         <item name="android:layout_width">match_parent</item>
@@ -10503,7 +10503,7 @@
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
         <item name="android:textSize">24sp</item>
-        <item name="android:textColor">#03A9F4</item>
+        <item name="android:textColor">#23759E</item>
 
     </style><style name="supplier_name_title">
         <item name="android:layout_width">wrap_content</item>
@@ -10512,7 +10512,7 @@
         <item name="android:textStyle">bold</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
         <item name="android:textSize">24sp</item>
-        <item name="android:textColor">#03A9F4</item>
+        <item name="android:textColor">#23759E</item>
     </style><style name="button_decrease">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>
@@ -10571,7 +10571,7 @@
         <item name="android:layout_marginLeft">96dp</item>
         <item name="android:layout_marginRight">96dp</item>
         <item name="android:textSize">16sp</item>
-        <item name="android:textColor">#03A9F4</item>
+        <item name="android:textColor">#23759E</item>
     </style><style name="list_view">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -10592,7 +10592,7 @@
         <item name="android:layout_marginLeft">16dp</item>
         <item name="android:layout_marginTop">16dp</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
-        <item name="android:textColor">@color/teal_200</item>
+        <item name="android:textColor">#23759E</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_below">@id/view2</item>
@@ -10603,7 +10603,7 @@
         <item name="android:layout_marginLeft">16dp</item>
         <item name="android:layout_marginTop">16dp</item>
         <item name="android:fontFamily">serif-monospace</item>
-        <item name="android:textColor">@color/teal_200</item>
+        <item name="android:textColor">#23759E</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold|italic</item>
     </style><style name="quantity">
@@ -10614,7 +10614,7 @@
         <item name="android:layout_marginTop">16dp</item>
         <item name="android:fontFamily">serif-monospace</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:textColor">@color/teal_200</item>
+        <item name="android:textColor">#23759E</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
     </style><style name="price">
@@ -10625,7 +10625,7 @@
         <item name="android:layout_marginTop">16dp</item>
         <item name="android:fontFamily">serif-monospace</item>
         <item name="android:textStyle">bold|italic</item>
-        <item name="android:textColor">@color/teal_200</item>
+        <item name="android:textColor">#23759E</item>
         <item name="android:textSize">16sp</item>
     </style><style name="sold">
         <item name="android:layout_width">wrap_content</item>
@@ -10635,7 +10635,7 @@
         <item name="android:layout_marginTop">16dp</item>
         <item name="android:fontFamily">serif-monospace</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:textColor">@color/teal_200</item>
+        <item name="android:textColor">#23759E</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
     </style><style name="relative_layout2">

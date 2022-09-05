@@ -1,5 +1,6 @@
 package com.android.FinaNet.adapter;
 
+
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -15,14 +16,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.android.FinaNet.ContactsDetailsActivity;
 import com.android.FinaNet.R;
 import com.android.FinaNet.models.Contacts;
-
 import java.util.List;
 
 
@@ -89,7 +87,7 @@ public class Ad_Contacts extends RecyclerView.Adapter<Ad_Contacts.ViewHolder> {
         paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
         paint.getTextBounds(text, 0, 1, bounds);
 
-        paintCircle.setColor(mContext.getResources().getColor(R.color.colorPrimary));
+        paintCircle.setColor(mContext.getResources().getColor(R.color.teal_200));
         paintCircle.setAntiAlias(true);
 
         int x = (canvas.getWidth() / 2);

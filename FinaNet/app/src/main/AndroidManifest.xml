@@ -14,7 +14,7 @@
         android:theme="@style/Theme.FinaNetApp">
 
         <activity
-            android:name=".LoginActivity"
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
 
@@ -24,40 +24,39 @@
             </intent-filter>
         </activity>
 
+
         <activity
             android:name=".NewContactActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".ContactsDetailsActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".McontactActivity"
             android:theme="@style/Theme.FinaNetApp"  />
-
-        <activity android:name=".MaActivity"
+        <activity
+            android:name=".MaActivity"
             android:configChanges="orientation|screenSize"
             android:exported="true"/>
-
         <activity
             android:name=".EditorActivity"
             android:label="@string/new_item"
-            android:parentActivityName=".MaActivity"
-            />
+            android:parentActivityName=".MaActivity" />
 
         <activity android:name=".about" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".OrderSucceessActivity" />
         <activity android:name=".PlaceYourOrderActivity" />
         <activity android:name=".brandsMenuActivity" />
-        <activity android:name=".SplashActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".ForgotPasswordActivity" />
 
         <provider
             android:name=".data.ItemsProvider"
-            android:authorities="com.example.android.inventory" />
-    </application>
+            android:authorities="com.example.android.inventory"
+            android:exported="false" />
 
+
+    </application>
 </manifest>

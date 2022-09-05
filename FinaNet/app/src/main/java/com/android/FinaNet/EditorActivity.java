@@ -1,51 +1,8 @@
-/*
- *
- *  * PROJECT LICENSE
- *  *
- *  * This project was submitted by Beatriz Ovejero as part of the Android Developer
- *  * Nanodegree at Udacity.
- *  *
- *  * As part of Udacity Honor code, your submissions must be your own work, hence
- *  * submitting this project as yours will cause you to break the Udacity Honor Code
- *  * and the suspension of your account.
- *  *
- *  * As author of the project, I allow you to check it as a reference, but if you submit it
- *  * as your own project, it's your own responsibility if you get expelled.
- *  *
- *  * Copyright (c) 2018 Beatriz Ovejero
- *  *
- *  * Besides the above notice, the following license applies and this license notice must be
- *  * included in all works derived from this project.
- *  *
- *  * MIT License
- *  *
- *  * Permission is hereby granted, free of charge, to any person obtaining a copy
- *  * of this software and associated documentation files (the "Software"), to deal
- *  * in the Software without restriction, including without limitation the rights
- *  * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- *  * copies of the Software, and to permit persons to whom the Software is
- *  * furnished to do so, subject to the following conditions:
- *  *
- *  * The above copyright notice and this permission notice shall be included in all
- *  * copies or substantial portions of the Software.
- *  *
- *  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- *  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- *  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- *  * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- *  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- *  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- *  * SOFTWARE.
- *
- */
-
 package com.android.FinaNet;
-import static com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade;
 
-/**
- * Created by beita on 10/07/2017.
- */
+import static com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade;
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.LoaderManager;
@@ -57,13 +14,10 @@ import android.content.Loader;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
-
 import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -74,10 +28,10 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
-
 import com.bumptech.glide.Glide;
 import com.android.FinaNet.data.ItemsContract;
 
@@ -91,8 +45,6 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
     ImageButton increase;
     ImageButton decrease;
     Uri uri;
-    private Button getPictureButton;
-    private Button orderItems;
     private Uri mCurrentItemUri;
     private EditText mItemEditText;
     private EditText mPriceEditText;
@@ -103,37 +55,36 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
     private boolean mItemHasChanged = false;
     private String currentPhotoUri;
 
-    private View.OnTouchListener mTouchListener = new View.OnTouchListener() {
-        @Override
-        public boolean onTouch(View view, MotionEvent motionEvent) {
-            mItemHasChanged = true;
-            return false;
-        }
+    @SuppressLint("ClickableViewAccessibility")
+    private final View.OnTouchListener mTouchListener = (view, motionEvent) -> {
+        mItemHasChanged = true;
+        return false;
     };
 
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editor);
 
-        mItemEditText = (EditText) findViewById(R.id.item_name_edit);
+        mItemEditText = findViewById(R.id.item_name_edit);
 
-        mQuantityEditText = (EditText) findViewById(R.id.quantity_edit);
+        mQuantityEditText =  findViewById(R.id.quantity_edit);
 
-        mPriceEditText = (EditText) findViewById(R.id.price_edit);
+        mPriceEditText =  findViewById(R.id.price_edit);
 
-        mImageView = (ImageView) findViewById(R.id.image_view);
+        mImageView =  findViewById(R.id.image_view);
 
-        getPictureButton = (Button) findViewById(R.id.get_picture);
+        Button getPictureButton = findViewById(R.id.get_picture);
 
-        orderItems = (Button) findViewById(R.id.order_items);
+        Button orderItems = findViewById(R.id.order_items);
 
-        increase = (ImageButton) findViewById(R.id.increase);
+        increase =  findViewById(R.id.increase);
 
-        decrease = (ImageButton) findViewById(R.id.decrease);
+        decrease =findViewById(R.id.decrease);
 
-        mSupplierSpinner = (Spinner) findViewById(R.id.spinner_supplier);
+        mSupplierSpinner =  findViewById(R.id.spinner_supplier);
 
 
         mItemEditText.setOnTouchListener(mTouchListener);
@@ -156,53 +107,41 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
 
         setupSpinner();
 
-        getPictureButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                accessOpenImageSelector();
-                mItemHasChanged = true;
-            }
+        getPictureButton.setOnClickListener(v -> {
+            accessOpenImageSelector();
+            mItemHasChanged = true;
         });
 
-        orderItems.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String nameItem = mItemEditText.getText().toString();
-                String quantityOrder = mQuantityEditText.getText().toString();
-                String priceItem = mPriceEditText.getText().toString();
+        orderItems.setOnClickListener(v -> {
+            String nameItem = mItemEditText.getText().toString();
+            String quantityOrder = mQuantityEditText.getText().toString();
+            String priceItem = mPriceEditText.getText().toString();
 
 
-                Intent intent = new Intent(Intent.ACTION_SEND);
-                intent.setType("text/plain");
-                intent.putExtra(Intent.EXTRA_EMAIL, ("mailto:"));
-                intent.putExtra(Intent.EXTRA_SUBJECT, (getString(R.string.goods_request)));
-                intent.putExtra(Intent.EXTRA_TEXT, "Request for: " + nameItem + "\nPriced at: " + priceItem + " €" +
-                        "\nQuantity to be ordered: " + quantityOrder + "\n\n Thank you!");
+            Intent intent1 = new Intent(Intent.ACTION_SEND);
+            intent1.setType("text/plain");
+            intent1.putExtra(Intent.EXTRA_EMAIL, ("mailto:"));
+            intent1.putExtra(Intent.EXTRA_SUBJECT, (getString(R.string.goods_request)));
+            intent1.putExtra(Intent.EXTRA_TEXT, "Request for: " + nameItem + "\nPriced at: " + priceItem + " €" +
+                    "\nQuantity to be ordered: " + quantityOrder + "\n\n Thank you!");
 
-                startActivity(intent);
+            startActivity(intent1);
 
-            }
         });
 
-        decrease.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                substractOneToQuantity();
-                mItemHasChanged = true;
-            }
+        decrease.setOnClickListener(view -> {
+            substractOneToQuantity();
+            mItemHasChanged = true;
         });
 
-        increase.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                addOneToQuantity();
-                mItemHasChanged = true;
-            }
+        increase.setOnClickListener(view -> {
+            addOneToQuantity();
+            mItemHasChanged = true;
         });
     }
 
     private void setupSpinner() {
-        ArrayAdapter supplierArrayAdapter = ArrayAdapter.createFromResource(this, R.array.array_supplier_options, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> supplierArrayAdapter = ArrayAdapter.createFromResource(this, R.array.array_supplier_options, android.R.layout.simple_spinner_item);
         supplierArrayAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
 
         mSupplierSpinner.setAdapter(supplierArrayAdapter);
@@ -247,28 +186,21 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
 
     private void openImageSelector() {
         Intent intent;
-        if (Build.VERSION.SDK_INT < 19) {
-            intent = new Intent(Intent.ACTION_GET_CONTENT);
-        } else {
-            intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
-            intent.addCategory(Intent.CATEGORY_OPENABLE);
-        }
+        intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+        intent.addCategory(Intent.CATEGORY_OPENABLE);
         intent.setType("image/*");
         startActivityForResult(Intent.createChooser(intent, "Select Picture"), GET_PICTURE_REQUEST);
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, String permissions[],
-                                           int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
+                                           @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        switch (requestCode) {
-            case GIVE_PERMISSION: {
-                // If request is cancelled, the result arrays are empty.
-                if (grantResults.length > 0
-                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    openImageSelector();
-                    // permission was granted
-                }
+        if (requestCode == GIVE_PERMISSION) {// If request is cancelled, the result arrays are empty.
+            if (grantResults.length > 0
+                    && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                openImageSelector();
+                // permission was granted
             }
         }
     }
@@ -293,13 +225,13 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(@NonNull Menu menu) {
         getMenuInflater().inflate(R.menu.menu_editor, menu);
         return true;
     }
 
     @Override
-    public boolean onPrepareOptionsMenu(Menu menu) {
+    public boolean onPrepareOptionsMenu(@NonNull Menu menu) {
         super.onPrepareOptionsMenu(menu);
         if (mCurrentItemUri == null) {
             MenuItem menuItem = menu.findItem(R.id.action_delete_item);
@@ -349,18 +281,10 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
     private void showDeleteConfirmationDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage(R.string.delete_message);
-        builder.setPositiveButton(R.string.delete, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int id) {
-                deleteItem();
-            }
-        });
-        builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int id) {
-                if (dialog != null) {
-                    dialog.dismiss();
-                }
+        builder.setPositiveButton(R.string.delete, (dialog, id) -> deleteItem());
+        builder.setNegativeButton(R.string.cancel, (dialog, id) -> {
+            if (dialog != null) {
+                dialog.dismiss();
             }
         });
 
@@ -368,6 +292,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         alertDialog.show();
     }
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -396,12 +321,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
             super.onBackPressed();
             return;
         }
-        DialogInterface.OnClickListener discardButtonClickListener = new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                finish();
-            }
-        };
+        DialogInterface.OnClickListener discardButtonClickListener = (dialog, which) -> finish();
 
         // Show dialog that there are unsaved changes
         showUnsavedChangesDialog(discardButtonClickListener);
@@ -489,12 +409,9 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         builder.setMessage(
                 R.string.unsaved_changes_dialog_msg);
         builder.setPositiveButton(R.string.discard, discardButtonClickListener);
-        builder.setNegativeButton(R.string.keep_editing, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int id) {
-                if (dialog != null) {
-                    dialog.dismiss();
-                }
+        builder.setNegativeButton(R.string.keep_editing, (dialog, id) -> {
+            if (dialog != null) {
+                dialog.dismiss();
             }
         });
         AlertDialog alertDialog = builder.create();
@@ -505,9 +422,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         String previousValueString = mQuantityEditText.getText().toString();
         int previousValue;
         if (previousValueString.isEmpty()) {
-            return;
         } else if (previousValueString.equals("0")) {
-            return;
         } else {
             previousValue = Integer.parseInt(previousValueString);
             mQuantityEditText.setText(String.valueOf(previousValue - 1));

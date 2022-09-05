@@ -1,21 +1,10 @@
 package com.android.FinaNet;
 
-import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
-import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-
-import com.vansuita.materialabout.views.AboutView;
 import com.vansuita.materialabout.builder.AboutBuilder;
+import com.vansuita.materialabout.views.AboutView;
 
 public class about extends AppCompatActivity {
 
@@ -83,12 +72,12 @@ public class about extends AppCompatActivity {
                 //.addFiveStarsAction()
                 //.addMoreFromMeAction("https://yahya-rabii.github.io/")
                 .setVersionNameAsAppSubTitle()
-                .addShareAction(R.string.app_name)
+                //.addShareAction(R.string.app_name)
                 //.addUpdateAction()
                 .setActionsColumnsCount(2)
-                //.addFeedbackAction("rabiiyahya1@gmail.com")
+                .addFeedbackAction("rabiiyahya1@gmail.com")
                 .addPrivacyPolicyAction("https://drive.google.com/file/d/1paLn3KqTncu8Qx7VjbA1PUBsJKpUqCci/view?usp=sharing")
-                .addIntroduceAction((Intent) null)
+                //.addIntroduceAction((Intent) null)
                 .setWrapScrollView(true)
                 .setLinksAnimated(true)
                 .setShowAsCard(true)
@@ -96,7 +85,6 @@ public class about extends AppCompatActivity {
 
          addContentView(view,new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,
                          RelativeLayout.LayoutParams.WRAP_CONTENT));
-         //setContentView(R.layout.activity_about);
 
 
     }

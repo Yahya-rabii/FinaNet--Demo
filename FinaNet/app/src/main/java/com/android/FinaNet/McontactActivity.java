@@ -5,27 +5,22 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.room.Room;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.android.FinaNet.adapter.Ad_Contacts;
 import com.android.FinaNet.interfaces.IContactDAO;
 import com.android.FinaNet.models.Contacts;
 import com.google.firebase.auth.FirebaseAuth;
-
 import java.util.Collections;
 import java.util.List;
 
 public class McontactActivity extends AppCompatActivity implements View.OnClickListener {
-
-
 
 
 
@@ -50,6 +45,7 @@ public class McontactActivity extends AppCompatActivity implements View.OnClickL
 
 
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,34 +60,30 @@ public class McontactActivity extends AppCompatActivity implements View.OnClickL
 
         bottomNavigationView = findViewById(R.id.bottom_navigator);
         bottomNavigationView.setSelectedItemId(R.id.contact);
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @SuppressLint("NonConstantResourceId")
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
 
-                switch (item.getItemId()) {
+            switch (item.getItemId()) {
 
-                    case R.id.about:
-                        startActivity(new Intent(getApplicationContext(), about.class));
-                        overridePendingTransition(0, 0);
-                        return true;
+                case R.id.about:
+                    startActivity(new Intent(getApplicationContext(), about.class));
+                    overridePendingTransition(0, 0);
+                    return true;
 
-                    case R.id.suppro:
-                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                        overridePendingTransition(0, 0);
-                        return true;
+                case R.id.suppro:
+                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                    overridePendingTransition(0, 0);
+                    return true;
 
-                    case R.id.contact:
-                        return true;
+                case R.id.contact:
+                    return true;
 
-                    case R.id.nospro:
-                        startActivity(new Intent(getApplicationContext(), MaActivity.class));
-                        overridePendingTransition(0, 0);
-                        return true;
+                case R.id.nospro:
+                    startActivity(new Intent(getApplicationContext(), MaActivity.class));
+                    overridePendingTransition(0, 0);
+                    return true;
 
-                    default:
-                        return false;
-                }
+                default:
+                    return false;
             }
         });
 

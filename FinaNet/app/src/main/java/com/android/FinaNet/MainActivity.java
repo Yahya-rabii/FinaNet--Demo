@@ -1,27 +1,22 @@
 package com.android.FinaNet;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.Button;
-
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import com.android.FinaNet.adapters.FinaListAdapter;
 import com.android.FinaNet.model.FinaModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.gson.Gson;
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -37,9 +32,9 @@ public class MainActivity extends AppCompatActivity implements FinaListAdapter.F
 
     BottomNavigationView bottomNavigationView;
 
-    Button btnLogOut;
     FirebaseAuth mAuth;
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,34 +43,30 @@ public class MainActivity extends AppCompatActivity implements FinaListAdapter.F
 
         bottomNavigationView = findViewById(R.id.bottom_navigator);
         bottomNavigationView.setSelectedItemId(R.id.suppro);
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @SuppressLint("NonConstantResourceId")
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
 
-                switch (item.getItemId()) {
+            switch (item.getItemId()) {
 
-                    case R.id.about:
-                        startActivity(new Intent(getApplicationContext(), about.class));
-                        overridePendingTransition(0, 0);
-                        return true;
+                case R.id.about:
+                    startActivity(new Intent(getApplicationContext(), about.class));
+                    overridePendingTransition(0, 0);
+                    return true;
 
-                    case R.id.suppro:
-                        return true;
+                case R.id.suppro:
+                    return true;
 
-                    case R.id.contact:
-                        startActivity(new Intent(getApplicationContext(), McontactActivity.class));
-                        overridePendingTransition(0, 0);
-                        return true;
+                case R.id.contact:
+                    startActivity(new Intent(getApplicationContext(), McontactActivity.class));
+                    overridePendingTransition(0, 0);
+                    return true;
 
-                    case R.id.nospro:
-                        startActivity(new Intent(getApplicationContext(), MaActivity.class));
-                        overridePendingTransition(0, 0);
-                        return true;
+                case R.id.nospro:
+                    startActivity(new Intent(getApplicationContext(), MaActivity.class));
+                    overridePendingTransition(0, 0);
+                    return true;
 
-                    default:
-                        return false;
-                }
+                default:
+                    return false;
             }
         });
 

@@ -10,7 +10,6 @@
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
-
     <!--
     Package visibility filtering on Android 30+
     @link https://g.co/dev/packagevisibility
@@ -54,7 +53,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinaNetApp" >
         <activity
-            android:name="com.android.FinaNet.LoginActivity"
+            android:name="com.android.FinaNet.SplashActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -84,13 +83,14 @@
         <activity android:name="com.android.FinaNet.OrderSucceessActivity" />
         <activity android:name="com.android.FinaNet.PlaceYourOrderActivity" />
         <activity android:name="com.android.FinaNet.brandsMenuActivity" />
-        <activity android:name="com.android.FinaNet.SplashActivity" />
+        <activity android:name="com.android.FinaNet.LoginActivity" />
         <activity android:name="com.android.FinaNet.MainActivity" />
         <activity android:name="com.android.FinaNet.ForgotPasswordActivity" />
 
         <provider
             android:name="com.android.FinaNet.data.ItemsProvider"
-            android:authorities="com.example.android.inventory" />
+            android:authorities="com.example.android.inventory"
+            android:exported="false" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

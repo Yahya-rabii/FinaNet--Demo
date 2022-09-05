@@ -1,11 +1,11 @@
 package com.android.FinaNet;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -15,6 +15,9 @@ import androidx.room.Room;
 
 import com.android.FinaNet.interfaces.IContactDAO;
 import com.android.FinaNet.models.Contacts;
+
+import java.util.Objects;
+
 
 public class ContactsDetailsActivity extends AppCompatActivity {
 
@@ -59,19 +62,14 @@ public class ContactsDetailsActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+        toolbar.setNavigationOnClickListener(v -> finish());
 
 
 
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(@NonNull Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.settings, menu);
         return true;
@@ -81,12 +79,13 @@ public class ContactsDetailsActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         contactsDetails = contactDAO.getItemById(id);
-        getSupportActionBar().setTitle(contactsDetails.getFirstName() + " " + contactsDetails.getLastName());
+        Objects.requireNonNull(getSupportActionBar()).setTitle(contactsDetails.getFirstName() + " " + contactsDetails.getLastName());
         contactNumber.setText(contactsDetails.getPhoneNumber());
         contactEmail.setText(contactsDetails.getEmail());
         contactAddress.setText(contactsDetails.getAddress());
     }
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 

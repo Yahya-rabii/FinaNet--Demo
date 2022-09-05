@@ -1,5 +1,6 @@
 package com.android.FinaNet;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -8,9 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthEmailException;
 import com.google.firebase.auth.FirebaseAuthInvalidUserException;
@@ -29,14 +28,13 @@ public class LoginActivity extends AppCompatActivity {
 
     /* View Elements */
     private EditText inputEmail, inputPassword;
-    private Button btnLogin;
-    private TextView btnRegister;
     Button sendVerifyMailAgainButton;
     TextView errorView;
     TextView tvClickHere;
     public FirebaseAuth mAuth;
 
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,8 +43,8 @@ public class LoginActivity extends AppCompatActivity {
         /* Get View Elements by its id */
         inputEmail = findViewById(R.id.signInEmailTextInput);
         inputPassword = findViewById(R.id.signInPasswordTextInput);
-        btnLogin = findViewById(R.id.signInButton);
-        btnRegister = findViewById(R.id.tvRegisterHere);
+        Button btnLogin = findViewById(R.id.signInButton);
+        TextView btnRegister = findViewById(R.id.tvRegisterHere);
         sendVerifyMailAgainButton = findViewById(R.id.verifyEmailAgainButton);
         errorView = findViewById(R.id.signInErrorView);
         tvClickHere = findViewById(R.id.tvClickHere);
@@ -62,8 +60,8 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(view -> {
             /* Input validation */
             try {
-                String email = getTextFromInput(inputEmail, true);
-                String password = getTextFromInput(inputPassword, true);
+                String email = getTextFromInput(inputEmail);
+                String password = getTextFromInput(inputPassword);
 
                 /* start authentication. */
                 auth.signInWithEmailAndPassword(email, password).addOnCompleteListener(task -> {
@@ -188,14 +186,13 @@ public class LoginActivity extends AppCompatActivity {
      * Retreive data from input, and validate the requirement.
      *
      * @param input The input element.
-     * @param required Is value required?
      * @return The input value.
      * @throws NullPointerException If validation failed.
      */
-    private String getTextFromInput(EditText input, boolean required) {
+    private String getTextFromInput(EditText input) {
         String value = input.getText().toString();
 
-        if (value.isEmpty() && required) {
+        if (value.isEmpty()) {
             input.setError("This input is required");
             throw new NullPointerException("Field " + input.getHint() + " is required.");
         }

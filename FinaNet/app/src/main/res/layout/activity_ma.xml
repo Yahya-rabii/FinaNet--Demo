@@ -44,7 +44,7 @@
             android:id="@+id/bottom_navigator"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/purple_500"
+            android:background="#23759E"
             app:itemIconTint="@drawable/selector"
             app:itemTextColor="@drawable/selector"
             app:menu="@menu/menu" />
@@ -61,6 +61,6 @@
         android:contentDescription="@string/todo"
         android:src="@drawable/ic_add"
         app:layout_anchor="@id/bottomAppBar"
-        tools:ignore="ImageContrastCheck" />
+        />
 
 </RelativeLayout>

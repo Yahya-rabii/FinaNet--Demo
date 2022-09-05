@@ -44,17 +44,17 @@ import android.content.ContentResolver;
 import android.net.Uri;
 import android.provider.BaseColumns;
 
-/**
- * Created by beita on 10/07/2017.
- */
+
 
 public class ItemsContract {
 
-    /**
+     /*
      * The "Content authority" is a name for the entire content provider. A convenient string to use for the
      * content authority is the package name for the app, which is guaranteed to be unique on the
      * device.
      */
+
+
     public static final String CONTENT_AUTHORITY = "com.example.android.inventory";
     public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
     public static final String PATH_INVENTORY = "inventory2017";
@@ -89,11 +89,9 @@ public class ItemsContract {
         public static final int SUPPLIER_BARRACUDA = 2;
         public static final int SUPPLIER_ADTRAN = 3;
 
+
         public static boolean isValidSupplier(int supplier) {
-            if (supplier == SUPPLIER_CISCO || supplier == SUPPLIER_JUNIPER || supplier == SUPPLIER_BARRACUDA || supplier == SUPPLIER_ADTRAN) {
-                return true;
-            }
-            return false;
+            return supplier == SUPPLIER_CISCO || supplier == SUPPLIER_JUNIPER || supplier == SUPPLIER_BARRACUDA || supplier == SUPPLIER_ADTRAN;
         }
     }
 }

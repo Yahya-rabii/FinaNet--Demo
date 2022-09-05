@@ -7,18 +7,15 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.android.FinaNet.adapters.MenuListAdapter;
 import com.android.FinaNet.model.FinaModel;
 import com.android.FinaNet.model.Menu;
-
 import java.util.ArrayList;
 import java.util.List;
 

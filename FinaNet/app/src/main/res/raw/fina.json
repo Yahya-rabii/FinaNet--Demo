@@ -1,9 +1,9 @@
 [
     {
-      "name":"Sisco",
+      "name":"Cisco",
       "address":"G9Q5+8HR, Lotiss. La Colline Ii, Casablanca 20100",
       "delivery_charge": 5,
-      "image":"https://www.1min30.com/wp-content/uploads/2018/07/Symbole-Cisco.jpg",
+      "image":"https://seeklogo.com/images/C/cisco-systems-logo-7F7AF0C154-seeklogo.com.png",
 
       "hours":{
 
@@ -73,7 +73,7 @@
       "name":"Juniper",
       "address":" Casa Twin Center Tour Ouest - 16è Étage - Casablanca",
       "delivery_charge": 4,
-      "image":"https://mma.prnewswire.com/media/1156979/Juniper_Logo.jpg?p=publish",
+      "image":"https://seeklogo.com/images/J/Juniper_Networks-logo-E4DFC0FFD4-seeklogo.com.png",
 
 
 
@@ -144,7 +144,7 @@
     "name":"Barracuda",
     "address":"10975 State Bridge Rd.",
     "delivery_charge": 5,
-    "image":"https://logos-marques.com/wp-content/uploads/2022/04/Barracuda-Networks-logo-500x281.png",
+    "image":"https://seeklogo.com/images/B/barracuda-logo-D4A2498113-seeklogo.com.png",
     "hours":{
       "Sunday":"11:00 AM - 7:00 PM",
       "Monday":"10:00 AM - 10:00 PM",
@@ -234,4 +234,5 @@
       }
     ]
   }
+
 ]

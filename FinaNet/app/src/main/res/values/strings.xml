@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Fina-Net</string>
-    <string name="your_main_suplier">your_main_suplier</string>
+    <string name="your_main_suplier">your main suplier</string>
     <string name="register_user">Register User</string>
     <string name="fina_net">Fina-Net</string>
     <string name="email">Email</string>
@@ -14,15 +14,14 @@
     <string name="not_registered_yet">Not registered yet</string>
     <string name="register_here">Register here</string>
     <string name="phone">phone</string>
-    <string name="error_view">error_view</string>
+    <string name="error_view">error view</string>
     <string name="tandc">TandC</string>
-    <string name="reset_password">reset_password</string>
+    <string name="reset_password">reset password</string>
     <string name="todo">TODO</string>
-    <string name="sign_in">sign_in</string>
-    <string name="email_verify_again">email_verify_again</string>
-    <string name="click_here">click_here</string>
+    <string name="sign_in">sign in</string>
+    <string name="email_verify_again">email verify again</string>
+    <string name="click_here">click here</string>
     <string name="or">or</string>
-    <string name="forgote_password">forgote password</string>
     <string name="forgot_password">forgot password</string>
     <string name="logout">Logout</string>
     <string name="checkout">Checkout</string>
@@ -30,7 +29,6 @@
     <string name="done">Done</string>
     <string name="add_to_cart">Add to cart</string>
     <string name="_1">1</string>
-    <string name="dashbord">dashbord</string>
     <string name="dashboard">dashboard</string>
     <string name="home">home</string>
     <string name="about">about</string>
@@ -53,8 +51,6 @@
     <string name="desc_btn_edit">desc btn edit</string>
     <string name="desc_btn_delete">desc btn delete</string>
     <string name="label_button_logout">label button logout</string>
-
-
     <string name="new_item">Add new item</string>
     <string name="supplier_name_title">Supplier Name</string>
     <string name="quantity_title">Quantity</string>
@@ -104,7 +100,6 @@
     <string name="enter_your_city">Enter your city</string>
     <string name="enter_your_zip">Enter your zip</string>
     <string name="enter_card_number">Enter Card Number</string>
-    <string name="enter_card_expiry_mm_yyyy">Enter Card expiry(mm/yyyy)</string>
     <string name="enter_card_expiry_dd_mm_yyyy">enter card expiry (dd/mm/yyyy)</string>
     <string name="enter_card_pin_3_digits">Enter Card pin(3 digits)</string>
     <string name="total_items_in_cart">Total items in cart</string>
@@ -113,5 +108,6 @@
     <string name="delivery_charge">Delivery Charge</string>
     <string name="total">Total</string>
     <string name="place_your_order">Place your order</string>
+    <string name="terms_and_conditions">terms and conditions</string>
 
 </resources>

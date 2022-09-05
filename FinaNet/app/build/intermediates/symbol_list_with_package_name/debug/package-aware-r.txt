@@ -1239,8 +1239,6 @@ color cardview_shadow_start_color
 color checkbox_themeable_attribute_color
 color colorAccent
 color colorItemName
-color colorPrimary
-color colorPrimaryDark
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -3577,7 +3575,6 @@ string confirm_set_positive
 string copy_toast_msg
 string customer_details
 string dashboard
-string dashbord
 string default_web_client_id
 string delete
 string delete_item_failed
@@ -3598,7 +3595,6 @@ string email
 string email_verify_again
 string empty_list_hint
 string enter_card_expiry_dd_mm_yyyy
-string enter_card_expiry_mm_yyyy
 string enter_card_number
 string enter_card_pin_3_digits
 string enter_your_address
@@ -3623,7 +3619,6 @@ string fina_net
 string firebase_database_url
 string first_name
 string forgot_password
-string forgote_password
 string fournisseur_produit
 string full_name
 string gcm_defaultSenderId
@@ -3785,6 +3780,7 @@ string supplier_Cisco
 string supplier_Juniper
 string supplier_name_title
 string tandc
+string terms_and_conditions
 string toast_onclick
 string todo
 string total

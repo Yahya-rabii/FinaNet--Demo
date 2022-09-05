@@ -16,172 +16,173 @@
 12    <uses-permission android:name="android.permission.INTERNET" />
 12-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:6:5-67
 12-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:6:22-64
-13
-14    <!--
-15    Package visibility filtering on Android 30+
-16    @link https://g.co/dev/packagevisibility
-17    @link https://developer.android.com/training/package-visibility/declaring#communicate-host-app
-18    -->
-19    <queries>
-19-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:14:5-34:15
-20        <intent>
-20-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:15:9-17:18
-21            <action android:name="android.intent.action.VIEW" />
-21-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:16:13-65
-21-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:16:21-62
-22        </intent>
-23        <intent>
-23-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:18:9-20:18
-24            <action android:name="android.intent.action.INSERT" />
-24-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:19:13-67
-24-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:19:21-64
-25        </intent>
-26        <intent>
-26-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:21:9-23:18
-27            <action android:name="android.intent.action.SENDTO" />
-27-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:22:13-67
-27-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:22:21-64
-28        </intent>
-29        <intent>
-29-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:24:9-26:18
-30            <action android:name="android.intent.action.SEND" />
-30-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:25:13-65
-30-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:25:21-62
-31        </intent>
-32
-33        <package android:name="com.facebook.katana" />
-33-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:28:9-55
-33-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:28:18-52
-34        <package android:name="com.instagram.android" />
-34-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:29:9-57
-34-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:29:18-54
-35        <package android:name="com.twitter.android" />
-35-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:30:9-55
-35-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:30:18-52
-36        <package android:name="com.google.android.apps.plus" />
-36-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:31:9-64
-36-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:31:18-61
-37        <package android:name="com.linkedin.android" />
-37-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:32:9-56
-37-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:32:18-53
-38        <package android:name="com.skype.raider" />
-38-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:33:9-52
-38-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:33:18-49
-39    </queries> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-40    <!-- <uses-sdk android:minSdkVersion="14" /> -->
-41    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-41-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\yahya\.gradle\caches\transforms-3\c514fd70fd02ea70a8006a86e812cf7b\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:5-79
-41-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\yahya\.gradle\caches\transforms-3\c514fd70fd02ea70a8006a86e812cf7b\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:22-76
-42    <uses-permission android:name="android.permission.WAKE_LOCK" />
-42-->[com.google.android.gms:play-services-measurement-api:20.0.1] C:\Users\yahya\.gradle\caches\transforms-3\0c9a48b1e1f463af6e8feb43d07ac531\transformed\jetified-play-services-measurement-api-20.0.1\AndroidManifest.xml:24:5-68
-42-->[com.google.android.gms:play-services-measurement-api:20.0.1] C:\Users\yahya\.gradle\caches\transforms-3\0c9a48b1e1f463af6e8feb43d07ac531\transformed\jetified-play-services-measurement-api-20.0.1\AndroidManifest.xml:24:22-65
-43    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
-43-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\yahya\.gradle\caches\transforms-3\245450b14a651873d9fa0e7b88c25a9c\transformed\jetified-play-services-measurement-20.0.1\AndroidManifest.xml:26:5-110
-43-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\yahya\.gradle\caches\transforms-3\245450b14a651873d9fa0e7b88c25a9c\transformed\jetified-play-services-measurement-20.0.1\AndroidManifest.xml:26:22-107
-44    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-44-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\yahya\.gradle\caches\transforms-3\5ef1eecae7d420c78833e99a68b50e98\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
-44-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\yahya\.gradle\caches\transforms-3\5ef1eecae7d420c78833e99a68b50e98\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:22-76
-45
-46    <application
-46-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:8:5-61:19
-47        android:allowBackup="true"
-47-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:9:9-35
-48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-48-->[androidx.core:core:1.8.0] C:\Users\yahya\.gradle\caches\transforms-3\ca18492abc4e717cba0e2f1b8c3a4c89\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-49        android:debuggable="true"
-50        android:extractNativeLibs="false"
-51        android:icon="@mipmap/ic_launcher"
-51-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:10:9-43
-52        android:label="@string/app_name"
-52-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:11:9-41
-53        android:roundIcon="@mipmap/ic_launcher_round"
-53-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:12:9-54
-54        android:supportsRtl="true"
-54-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:13:9-35
-55        android:theme="@style/Theme.FinaNetApp" >
-55-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:14:9-48
-56        <activity
-56-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:16:9-25:20
-57            android:name="com.android.FinaNet.LoginActivity"
-57-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:17:13-42
-58            android:exported="true" >
-58-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:18:13-36
-59            <intent-filter>
-59-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:19:13-24:29
-60                <action android:name="android.intent.action.MAIN" />
-60-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:21:17-69
-60-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:21:25-66
-61
-62                <category android:name="android.intent.category.LAUNCHER" />
-62-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:22:17-77
-62-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:22:27-74
-63            </intent-filter>
-64        </activity>
-65        <activity
-65-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:27:9-29:59
-66            android:name="com.android.FinaNet.NewContactActivity"
-66-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:28:13-47
-67            android:theme="@style/AppTheme.NoActionBar" />
-67-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:29:13-56
-68        <activity
-68-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:31:9-33:59
-69            android:name="com.android.FinaNet.ContactsDetailsActivity"
-69-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:32:13-52
-70            android:theme="@style/AppTheme.NoActionBar" />
-70-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:33:13-56
-71        <activity
-71-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:35:9-37:56
-72            android:name="com.android.FinaNet.McontactActivity"
-72-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:36:13-45
-73            android:theme="@style/Theme.FinaNetApp" />
-73-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:37:13-52
-74        <activity
-74-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:39:9-41:38
-75            android:name="com.android.FinaNet.MaActivity"
-75-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:39:19-45
-76            android:configChanges="orientation|screenSize"
-76-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:40:13-59
-77            android:exported="true" />
-77-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:41:13-36
-78        <activity
-78-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:43:9-47:15
-79            android:name="com.android.FinaNet.EditorActivity"
-79-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:44:13-43
-80            android:label="@string/new_item"
-80-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:45:13-45
-81            android:parentActivityName="com.android.FinaNet.MaActivity" />
-81-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:46:13-53
-82        <activity android:name="com.android.FinaNet.about" />
-82-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:49:9-43
-82-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:49:19-40
-83        <activity android:name="com.android.FinaNet.RegisterActivity" />
-83-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:50:9-54
-83-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:50:19-51
-84        <activity android:name="com.android.FinaNet.OrderSucceessActivity" />
-84-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:51:9-59
-84-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:51:19-56
-85        <activity android:name="com.android.FinaNet.PlaceYourOrderActivity" />
-85-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:52:9-60
-85-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:52:19-57
-86        <activity android:name="com.android.FinaNet.brandsMenuActivity" />
-86-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:53:9-56
-86-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:53:19-53
-87        <activity android:name="com.android.FinaNet.SplashActivity" />
-87-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:54:9-52
-87-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:54:19-49
-88        <activity android:name="com.android.FinaNet.MainActivity" />
-88-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:55:9-50
-88-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:55:19-47
-89        <activity android:name="com.android.FinaNet.ForgotPasswordActivity" />
-89-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:56:9-60
-89-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:56:19-57
-90
-91        <provider
-91-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:58:9-60:67
-92            android:name="com.android.FinaNet.data.ItemsProvider"
-92-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:59:13-47
-93            android:authorities="com.example.android.inventory" />
-93-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:60:13-64
+13    <!--
+14    Package visibility filtering on Android 30+
+15    @link https://g.co/dev/packagevisibility
+16    @link https://developer.android.com/training/package-visibility/declaring#communicate-host-app
+17    -->
+18    <queries>
+18-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:14:5-34:15
+19        <intent>
+19-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:15:9-17:18
+20            <action android:name="android.intent.action.VIEW" />
+20-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:16:13-65
+20-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:16:21-62
+21        </intent>
+22        <intent>
+22-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:18:9-20:18
+23            <action android:name="android.intent.action.INSERT" />
+23-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:19:13-67
+23-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:19:21-64
+24        </intent>
+25        <intent>
+25-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:21:9-23:18
+26            <action android:name="android.intent.action.SENDTO" />
+26-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:22:13-67
+26-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:22:21-64
+27        </intent>
+28        <intent>
+28-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:24:9-26:18
+29            <action android:name="android.intent.action.SEND" />
+29-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:25:13-65
+29-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:25:21-62
+30        </intent>
+31
+32        <package android:name="com.facebook.katana" />
+32-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:28:9-55
+32-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:28:18-52
+33        <package android:name="com.instagram.android" />
+33-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:29:9-57
+33-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:29:18-54
+34        <package android:name="com.twitter.android" />
+34-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:30:9-55
+34-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:30:18-52
+35        <package android:name="com.google.android.apps.plus" />
+35-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:31:9-64
+35-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:31:18-61
+36        <package android:name="com.linkedin.android" />
+36-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:32:9-56
+36-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:32:18-53
+37        <package android:name="com.skype.raider" />
+37-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:33:9-52
+37-->[com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:33:18-49
+38    </queries> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+39    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+40    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+40-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\yahya\.gradle\caches\transforms-3\c514fd70fd02ea70a8006a86e812cf7b\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:5-79
+40-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\yahya\.gradle\caches\transforms-3\c514fd70fd02ea70a8006a86e812cf7b\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:22-76
+41    <uses-permission android:name="android.permission.WAKE_LOCK" />
+41-->[com.google.android.gms:play-services-measurement-api:20.0.1] C:\Users\yahya\.gradle\caches\transforms-3\0c9a48b1e1f463af6e8feb43d07ac531\transformed\jetified-play-services-measurement-api-20.0.1\AndroidManifest.xml:24:5-68
+41-->[com.google.android.gms:play-services-measurement-api:20.0.1] C:\Users\yahya\.gradle\caches\transforms-3\0c9a48b1e1f463af6e8feb43d07ac531\transformed\jetified-play-services-measurement-api-20.0.1\AndroidManifest.xml:24:22-65
+42    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+42-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\yahya\.gradle\caches\transforms-3\245450b14a651873d9fa0e7b88c25a9c\transformed\jetified-play-services-measurement-20.0.1\AndroidManifest.xml:26:5-110
+42-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\yahya\.gradle\caches\transforms-3\245450b14a651873d9fa0e7b88c25a9c\transformed\jetified-play-services-measurement-20.0.1\AndroidManifest.xml:26:22-107
+43    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+43-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\yahya\.gradle\caches\transforms-3\5ef1eecae7d420c78833e99a68b50e98\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+43-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\yahya\.gradle\caches\transforms-3\5ef1eecae7d420c78833e99a68b50e98\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:22-76
+44
+45    <application
+45-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:8:5-61:19
+46        android:allowBackup="true"
+46-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:9:9-35
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.8.0] C:\Users\yahya\.gradle\caches\transforms-3\ca18492abc4e717cba0e2f1b8c3a4c89\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+48        android:debuggable="true"
+49        android:extractNativeLibs="false"
+50        android:icon="@mipmap/ic_launcher"
+50-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:10:9-43
+51        android:label="@string/app_name"
+51-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:11:9-41
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:12:9-54
+53        android:supportsRtl="true"
+53-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:13:9-35
+54        android:theme="@style/Theme.FinaNetApp" >
+54-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:14:9-48
+55        <activity
+55-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:16:9-25:20
+56            android:name="com.android.FinaNet.SplashActivity"
+56-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:17:13-43
+57            android:exported="true" >
+57-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:18:13-36
+58            <intent-filter>
+58-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:19:13-24:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:21:17-69
+59-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:21:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:22:17-77
+61-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:22:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:28:9-30:59
+65            android:name="com.android.FinaNet.NewContactActivity"
+65-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:29:13-47
+66            android:theme="@style/AppTheme.NoActionBar" />
+66-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:30:13-56
+67        <activity
+67-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:31:9-33:59
+68            android:name="com.android.FinaNet.ContactsDetailsActivity"
+68-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:32:13-52
+69            android:theme="@style/AppTheme.NoActionBar" />
+69-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:33:13-56
+70        <activity
+70-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:34:9-36:56
+71            android:name="com.android.FinaNet.McontactActivity"
+71-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:35:13-45
+72            android:theme="@style/Theme.FinaNetApp" />
+72-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:36:13-52
+73        <activity
+73-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:37:9-40:38
+74            android:name="com.android.FinaNet.MaActivity"
+74-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:38:13-39
+75            android:configChanges="orientation|screenSize"
+75-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:39:13-59
+76            android:exported="true" />
+76-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:40:13-36
+77        <activity
+77-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:41:9-44:56
+78            android:name="com.android.FinaNet.EditorActivity"
+78-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:42:13-43
+79            android:label="@string/new_item"
+79-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:43:13-45
+80            android:parentActivityName="com.android.FinaNet.MaActivity" />
+80-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:44:13-53
+81        <activity android:name="com.android.FinaNet.about" />
+81-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:46:9-43
+81-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:46:19-40
+82        <activity android:name="com.android.FinaNet.RegisterActivity" />
+82-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:47:9-54
+82-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:47:19-51
+83        <activity android:name="com.android.FinaNet.OrderSucceessActivity" />
+83-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:48:9-59
+83-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:48:19-56
+84        <activity android:name="com.android.FinaNet.PlaceYourOrderActivity" />
+84-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:49:9-60
+84-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:49:19-57
+85        <activity android:name="com.android.FinaNet.brandsMenuActivity" />
+85-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:50:9-56
+85-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:50:19-53
+86        <activity android:name="com.android.FinaNet.LoginActivity" />
+86-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:51:9-51
+86-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:51:19-48
+87        <activity android:name="com.android.FinaNet.MainActivity" />
+87-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:52:9-50
+87-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:52:19-47
+88        <activity android:name="com.android.FinaNet.ForgotPasswordActivity" />
+88-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:53:9-60
+88-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:53:19-57
+89
+90        <provider
+90-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:55:9-58:40
+91            android:name="com.android.FinaNet.data.ItemsProvider"
+91-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:56:13-47
+92            android:authorities="com.example.android.inventory"
+92-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:57:13-64
+93            android:exported="false" />
+93-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:58:13-37
 94
 95        <service
 95-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\yahya\.gradle\caches\transforms-3\c514fd70fd02ea70a8006a86e812cf7b\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:17:9-23:19

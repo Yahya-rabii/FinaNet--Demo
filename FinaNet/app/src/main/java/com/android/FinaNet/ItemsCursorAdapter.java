@@ -43,6 +43,7 @@ package com.android.FinaNet;
 
 import static com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade;
 
+import android.annotation.SuppressLint;
 import android.content.ContentResolver;
 import android.content.ContentUris;
 import android.content.ContentValues;
@@ -73,16 +74,17 @@ public class ItemsCursorAdapter extends CursorAdapter {
         return LayoutInflater.from(context).inflate(R.layout.list_item, parent, false);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void bindView(final View view, final Context context, Cursor cursor) {
 
-        TextView nameTextView = (TextView) view.findViewById(R.id.item_name);
-        TextView quantityTextView = (TextView) view.findViewById(R.id.quantity);
-        TextView priceTextView = (TextView) view.findViewById(R.id.price);
-        TextView nameSupplierTextView = (TextView) view.findViewById(R.id.supplier);
-        TextView itemsSold = (TextView) view.findViewById(R.id.sold);
-        ImageView sellButton = (ImageView) view.findViewById(R.id.button_sell);
-        ImageView imageViewPhotoItem = (ImageView) view.findViewById(R.id.image_view_list);
+        TextView nameTextView =  view.findViewById(R.id.item_name);
+        TextView quantityTextView =  view.findViewById(R.id.quantity);
+        TextView priceTextView = view.findViewById(R.id.price);
+        TextView nameSupplierTextView = view.findViewById(R.id.supplier);
+        TextView itemsSold = view.findViewById(R.id.sold);
+        ImageView sellButton =view.findViewById(R.id.button_sell);
+        ImageView imageViewPhotoItem = view.findViewById(R.id.image_view_list);
 
         // Find the columns of item attributes that we are interested in
         int nameColumnIndex = cursor.getColumnIndex(ItemsContract.ItemsEntry.COLUMN_ITEM_NAME);
@@ -135,24 +137,21 @@ public class ItemsCursorAdapter extends CursorAdapter {
                 .into(imageViewPhotoItem);
 
 
-        sellButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ContentResolver resolver = view.getContext().getContentResolver();
-                ContentValues values = new ContentValues();
-                if (currentQuantity > 0) {
-                    int quantityValue = currentQuantity;
-                    int sold1 = itemSold;
+        sellButton.setOnClickListener(v -> {
+            ContentResolver resolver = view.getContext().getContentResolver();
+            ContentValues values = new ContentValues();
+            if (currentQuantity > 0) {
+                int quantityValue = currentQuantity;
+                int sold1 = itemSold;
 
-                    values.put(ItemsContract.ItemsEntry.COLUMN_ITEM_QUANTITY, --quantityValue);
-                    values.put(ItemsContract.ItemsEntry.COLUMN_ITEM_SOLD, ++sold1);
-                    resolver.update(
-                            currentProductUri,
-                            values,
-                            null,
-                            null);
-                    context.getContentResolver().notifyChange(currentProductUri, null);
-                }
+                values.put(ItemsContract.ItemsEntry.COLUMN_ITEM_QUANTITY, --quantityValue);
+                values.put(ItemsContract.ItemsEntry.COLUMN_ITEM_SOLD, ++sold1);
+                resolver.update(
+                        currentProductUri,
+                        values,
+                        null,
+                        null);
+                context.getContentResolver().notifyChange(currentProductUri, null);
             }
         });
     }
