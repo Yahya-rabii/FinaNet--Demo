@@ -1,7 +1,8 @@
 <h1 align="center"> FinaNet-Demo App </h1>
 
 
-<img src="https://user-images.githubusercontent.com/92509001/184626921-90f093b9-2713-479f-a730-b1a58d801560.png">
+<img src="![image](https://user-images.githubusercontent.com/92509001/188492745-042601cf-08b9-4401-b084-0d56dd11e177.png)
+">
 
 ### Show some ❤️ and star the repo to show support for the project
 
