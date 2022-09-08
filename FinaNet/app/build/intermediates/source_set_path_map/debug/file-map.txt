@@ -30,12 +30,12 @@ com.android.FinaNet.app-drawerlayout-1.1.1-28 C:\Users\yahya\.gradle\caches\tran
 com.android.FinaNet.app-appcompat-1.5.0-29 C:\Users\yahya\.gradle\caches\transforms-3\d860d4dd1b3cb726009da752539b7466\transformed\appcompat-1.5.0\res
 com.android.FinaNet.app-transition-1.2.0-30 C:\Users\yahya\.gradle\caches\transforms-3\dd65f8e2bd64364de9b729f8f1213eef\transformed\transition-1.2.0\res
 com.android.FinaNet.app-recyclerview-1.1.0-31 C:\Users\yahya\.gradle\caches\transforms-3\f31ffdf4a9cc56bcc7ecd1833abc7a42\transformed\recyclerview-1.1.0\res
-com.android.FinaNet.app-google-services-32 C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\build\generated\res\google-services\debug
-com.android.FinaNet.app-pngs-33 C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\build\generated\res\pngs\debug
-com.android.FinaNet.app-resValues-34 C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\build\generated\res\resValues\debug
-com.android.FinaNet.app-rs-35 C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\build\generated\res\rs\debug
-com.android.FinaNet.app-mergeDebugResources-36 C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.android.FinaNet.app-mergeDebugResources-37 C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.android.FinaNet.app-merged_res-38 C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\build\intermediates\merged_res\debug
-com.android.FinaNet.app-debug-39 C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\debug\res
-com.android.FinaNet.app-main-40 C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\res
+com.android.FinaNet.app-google-services-32 C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\build\generated\res\google-services\debug
+com.android.FinaNet.app-pngs-33 C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\build\generated\res\pngs\debug
+com.android.FinaNet.app-resValues-34 C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\build\generated\res\resValues\debug
+com.android.FinaNet.app-rs-35 C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\build\generated\res\rs\debug
+com.android.FinaNet.app-mergeDebugResources-36 C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.android.FinaNet.app-mergeDebugResources-37 C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.android.FinaNet.app-merged_res-38 C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\build\intermediates\merged_res\debug
+com.android.FinaNet.app-debug-39 C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\debug\res
+com.android.FinaNet.app-main-40 C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\res

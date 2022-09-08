@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\yahya\.gradle\caches\transforms-3\75297023975bdd76dc810ed23ff29bbf\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yahya\.gradle\caches\transforms-3\4b099e9383f288a93a1c224aa6e4f6ea\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:2:1-36:12
@@ -81,29 +81,29 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yahya\.gradle\ca
 MERGED from [androidx.print:print:1.0.0] C:\Users\yahya\.gradle\caches\transforms-3\afbdcaa71b5b681fc9d27c7af2114821\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\yahya\.gradle\caches\transforms-3\5712798c99542b4e85760a395cc08db7\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\yahya\.gradle\caches\transforms-3\05e1129815a1bb23615fe25d054bb27e\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
 	package
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:3:5-34
-		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
-		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
+		INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
-		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:2:1-62:12
+		INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:5:5-80
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:5:22-77
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:5:22-77
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yahya\.gradle\caches\transforms-3\c514fd70fd02ea70a8006a86e812cf7b\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yahya\.gradle\caches\transforms-3\c514fd70fd02ea70a8006a86e812cf7b\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\yahya\.gradle\caches\transforms-3\9c8dd13e865d608af71b05f373056bb4\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:23:5-67
@@ -121,9 +121,9 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.1] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.1] C:\Users\yahya\.gradle\caches\transforms-3\f8950a59bea0502ecaa467eb9330d765\transformed\jetified-play-services-measurement-sdk-api-20.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.1] C:\Users\yahya\.gradle\caches\transforms-3\f8950a59bea0502ecaa467eb9330d765\transformed\jetified-play-services-measurement-sdk-api-20.0.1\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:8:5-61:19
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:8:5-61:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\yahya\.gradle\caches\transforms-3\75297023975bdd76dc810ed23ff29bbf\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\yahya\.gradle\caches\transforms-3\75297023975bdd76dc810ed23ff29bbf\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yahya\.gradle\caches\transforms-3\4b099e9383f288a93a1c224aa6e4f6ea\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -189,111 +189,111 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ya
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] C:\Users\yahya\.gradle\caches\transforms-3\ca18492abc4e717cba0e2f1b8c3a4c89\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:14:9-48
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:14:9-48
 activity#com.android.FinaNet.SplashActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:16:9-25:20
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:16:9-25:20
 	android:exported
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:18:13-36
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:17:13-43
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:17:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:19:13-24:29
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:19:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:22:27-74
 activity#com.android.FinaNet.NewContactActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:28:9-30:59
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:28:9-30:59
 	android:theme
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:30:13-56
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:30:13-56
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:29:13-47
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:29:13-47
 activity#com.android.FinaNet.ContactsDetailsActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:31:9-33:59
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:31:9-33:59
 	android:theme
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:33:13-56
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:33:13-56
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:32:13-52
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:32:13-52
 activity#com.android.FinaNet.McontactActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:34:9-36:56
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:34:9-36:56
 	android:theme
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:36:13-52
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:36:13-52
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:35:13-45
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:35:13-45
 activity#com.android.FinaNet.MaActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:37:9-40:38
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:37:9-40:38
 	android:exported
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:40:13-36
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:40:13-36
 	android:configChanges
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:39:13-59
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:39:13-59
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:38:13-39
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:38:13-39
 activity#com.android.FinaNet.EditorActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:41:9-44:56
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:41:9-44:56
 	android:parentActivityName
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:44:13-53
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:44:13-53
 	android:label
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:43:13-45
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:43:13-45
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:42:13-43
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:42:13-43
 activity#com.android.FinaNet.about
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:46:9-43
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:46:9-43
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:46:19-40
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:46:19-40
 activity#com.android.FinaNet.RegisterActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:47:9-54
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:47:9-54
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:47:19-51
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:47:19-51
 activity#com.android.FinaNet.OrderSucceessActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:48:9-59
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:48:9-59
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:48:19-56
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:48:19-56
 activity#com.android.FinaNet.PlaceYourOrderActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:49:9-60
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:49:9-60
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:49:19-57
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:49:19-57
 activity#com.android.FinaNet.brandsMenuActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:50:9-56
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:50:9-56
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:50:19-53
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:50:19-53
 activity#com.android.FinaNet.LoginActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:51:9-51
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:51:9-51
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:51:19-48
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:51:19-48
 activity#com.android.FinaNet.MainActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:52:9-50
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:52:9-50
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:52:19-47
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:52:19-47
 activity#com.android.FinaNet.ForgotPasswordActivity
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:53:9-60
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:53:9-60
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:53:19-57
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:53:19-57
 provider#com.android.FinaNet.data.ItemsProvider
-ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:55:9-58:40
+ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:55:9-58:40
 	android:authorities
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:57:13-64
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:57:13-64
 	android:exported
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:58:13-37
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:56:13-47
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:56:13-47
 uses-sdk
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\yahya\.gradle\caches\transforms-3\75297023975bdd76dc810ed23ff29bbf\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\yahya\.gradle\caches\transforms-3\75297023975bdd76dc810ed23ff29bbf\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yahya\.gradle\caches\transforms-3\4b099e9383f288a93a1c224aa6e4f6ea\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -448,16 +448,16 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\yahya\.
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\yahya\.gradle\caches\transforms-3\5712798c99542b4e85760a395cc08db7\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\yahya\.gradle\caches\transforms-3\05e1129815a1bb23615fe25d054bb27e\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\yahya\.gradle\caches\transforms-3\05e1129815a1bb23615fe25d054bb27e\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
 queries
 ADDED from [com.github.jrvansuita:MaterialAbout:0.3.0] C:\Users\yahya\.gradle\caches\transforms-3\b40297914d5d6f9e893ef6735f751027\transformed\jetified-MaterialAbout-0.3.0\AndroidManifest.xml:14:5-34:15
 intent#action:name:android.intent.action.VIEW

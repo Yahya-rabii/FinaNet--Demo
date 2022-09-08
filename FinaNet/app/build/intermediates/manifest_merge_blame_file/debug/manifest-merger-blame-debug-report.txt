@@ -6,16 +6,16 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
+8-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml
+9-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-11-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:5:5-80
-11-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:5:22-77
+11-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:5:22-77
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:6:5-67
-12-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:6:22-64
+12-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:6:22-64
 13    <!--
 14    Package visibility filtering on Android 30+
 15    @link https://g.co/dev/packagevisibility
@@ -82,107 +82,107 @@
 43-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\yahya\.gradle\caches\transforms-3\5ef1eecae7d420c78833e99a68b50e98\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:22-76
 44
 45    <application
-45-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:8:5-61:19
+45-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:8:5-61:19
 46        android:allowBackup="true"
-46-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:9:9-35
+46-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:9:9-35
 47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 47-->[androidx.core:core:1.8.0] C:\Users\yahya\.gradle\caches\transforms-3\ca18492abc4e717cba0e2f1b8c3a4c89\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 48        android:debuggable="true"
 49        android:extractNativeLibs="false"
 50        android:icon="@mipmap/ic_launcher"
-50-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:10:9-43
+50-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:10:9-43
 51        android:label="@string/app_name"
-51-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:11:9-41
+51-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:11:9-41
 52        android:roundIcon="@mipmap/ic_launcher_round"
-52-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:12:9-54
+52-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:12:9-54
 53        android:supportsRtl="true"
-53-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:13:9-35
+53-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:13:9-35
 54        android:theme="@style/Theme.FinaNetApp" >
-54-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:14:9-48
+54-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:14:9-48
 55        <activity
-55-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:16:9-25:20
+55-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:16:9-25:20
 56            android:name="com.android.FinaNet.SplashActivity"
-56-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:17:13-43
+56-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:17:13-43
 57            android:exported="true" >
-57-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:18:13-36
+57-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:18:13-36
 58            <intent-filter>
-58-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:19:13-24:29
+58-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:19:13-24:29
 59                <action android:name="android.intent.action.MAIN" />
-59-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:21:17-69
-59-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:21:25-66
+59-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:21:17-69
+59-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:21:25-66
 60
 61                <category android:name="android.intent.category.LAUNCHER" />
-61-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:22:17-77
-61-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:22:27-74
+61-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:22:17-77
+61-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:22:27-74
 62            </intent-filter>
 63        </activity>
 64        <activity
-64-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:28:9-30:59
+64-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:28:9-30:59
 65            android:name="com.android.FinaNet.NewContactActivity"
-65-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:29:13-47
+65-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:29:13-47
 66            android:theme="@style/AppTheme.NoActionBar" />
-66-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:30:13-56
+66-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:30:13-56
 67        <activity
-67-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:31:9-33:59
+67-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:31:9-33:59
 68            android:name="com.android.FinaNet.ContactsDetailsActivity"
-68-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:32:13-52
+68-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:32:13-52
 69            android:theme="@style/AppTheme.NoActionBar" />
-69-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:33:13-56
+69-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:33:13-56
 70        <activity
-70-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:34:9-36:56
+70-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:34:9-36:56
 71            android:name="com.android.FinaNet.McontactActivity"
-71-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:35:13-45
+71-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:35:13-45
 72            android:theme="@style/Theme.FinaNetApp" />
-72-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:36:13-52
+72-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:36:13-52
 73        <activity
-73-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:37:9-40:38
+73-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:37:9-40:38
 74            android:name="com.android.FinaNet.MaActivity"
-74-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:38:13-39
+74-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:38:13-39
 75            android:configChanges="orientation|screenSize"
-75-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:39:13-59
+75-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:39:13-59
 76            android:exported="true" />
-76-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:40:13-36
+76-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:40:13-36
 77        <activity
-77-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:41:9-44:56
+77-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:41:9-44:56
 78            android:name="com.android.FinaNet.EditorActivity"
-78-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:42:13-43
+78-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:42:13-43
 79            android:label="@string/new_item"
-79-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:43:13-45
+79-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:43:13-45
 80            android:parentActivityName="com.android.FinaNet.MaActivity" />
-80-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:44:13-53
+80-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:44:13-53
 81        <activity android:name="com.android.FinaNet.about" />
-81-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:46:9-43
-81-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:46:19-40
+81-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:46:9-43
+81-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:46:19-40
 82        <activity android:name="com.android.FinaNet.RegisterActivity" />
-82-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:47:9-54
-82-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:47:19-51
+82-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:47:9-54
+82-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:47:19-51
 83        <activity android:name="com.android.FinaNet.OrderSucceessActivity" />
-83-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:48:9-59
-83-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:48:19-56
+83-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:48:9-59
+83-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:48:19-56
 84        <activity android:name="com.android.FinaNet.PlaceYourOrderActivity" />
-84-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:49:9-60
-84-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:49:19-57
+84-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:49:9-60
+84-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:49:19-57
 85        <activity android:name="com.android.FinaNet.brandsMenuActivity" />
-85-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:50:9-56
-85-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:50:19-53
+85-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:50:9-56
+85-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:50:19-53
 86        <activity android:name="com.android.FinaNet.LoginActivity" />
-86-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:51:9-51
-86-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:51:19-48
+86-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:51:9-51
+86-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:51:19-48
 87        <activity android:name="com.android.FinaNet.MainActivity" />
-87-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:52:9-50
-87-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:52:19-47
+87-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:52:9-50
+87-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:52:19-47
 88        <activity android:name="com.android.FinaNet.ForgotPasswordActivity" />
-88-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:53:9-60
-88-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:53:19-57
+88-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:53:9-60
+88-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:53:19-57
 89
 90        <provider
-90-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:55:9-58:40
+90-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:55:9-58:40
 91            android:name="com.android.FinaNet.data.ItemsProvider"
-91-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:56:13-47
+91-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:56:13-47
 92            android:authorities="com.example.android.inventory"
-92-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:57:13-64
+92-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:57:13-64
 93            android:exported="false" />
-93-->C:\Users\yahya\OneDrive\Bureau\lesdeux\FinaNet\app\src\main\AndroidManifest.xml:58:13-37
+93-->C:\Users\yahya\OneDrive\Bureau\Projet de stage\FinaNet\app\src\main\AndroidManifest.xml:58:13-37
 94
 95        <service
 95-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\yahya\.gradle\caches\transforms-3\c514fd70fd02ea70a8006a86e812cf7b\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:17:9-23:19
