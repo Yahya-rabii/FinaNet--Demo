@@ -13,12 +13,6 @@ FinaNet is an android application developed in **JAVA , JSON** and **XML** FinaN
 
 *Please Note:* this app is just a demo of the real app don't expect the code to be great.
 
-# Demo
-
-
-
-[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%" >](https://user-images.githubusercontent.com/92509001/184651237-d41723b7-66dc-41db-9f2f-c6493feac2c9.mp4 "Now in Android: 55")
-
 
 
 </p>
