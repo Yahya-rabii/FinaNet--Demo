@@ -9,9 +9,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.util.Log;
 
-/**
- * Created by beita on 10/07/2017.
- */
 
 public class ItemsProvider extends ContentProvider {
 

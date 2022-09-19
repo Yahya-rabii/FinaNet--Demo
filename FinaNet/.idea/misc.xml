@@ -21,6 +21,8 @@
         <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/drawable/ic_add_circle.xml" value="0.185" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/drawable/ic_launcher_background.xml" value="0.185" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/drawable/ic_remove_circle.xml" value="0.1585" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/layout/activity_add_contact.xml" value="0.209375" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/layout/activity_contacts_details.xml" value="0.209375" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/layout/activity_fina_menu.xml" value="0.2" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/layout/activity_main.xml" value="0.2" />
@@ -31,6 +33,10 @@
         <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/layout/menu_recycler_row.xml" value="0.209375" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/layout/place_order_recycler_row.xml" value="0.209375" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/layout/recycler_row.xml" value="0.209375" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/menu/main_menu.xml" value="0.209375" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/menu/menu_editor.xml" value="0.209375" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/menu/menu_main.xml" value="0.209375" />
+        <entry key="..\:/Users/yahya/OneDrive/Bureau/Projet de stage/FinaNet/app/src/main/res/menu/settings.xml" value="0.209375" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/and/FoodApp-main/FoodApp-main/FoodOrderApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/and/FoodApp-main/FoodApp-main/FoodOrderApp/app/src/main/res/drawable/button_bg.xml" value="0.1" />
         <entry key="..\:/Users/yahya/OneDrive/Bureau/and/FoodApp-main/FoodApp-main/FoodOrderApp/app/src/main/res/drawable/ic_add_circle.xml" value="0.1" />
