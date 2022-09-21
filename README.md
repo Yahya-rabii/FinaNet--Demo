@@ -55,14 +55,11 @@ Some of the features of Munche app are:
 
 `ɴᴏxɪᴅᴇᴜꜱ`
 
-**Connect with me on**
-</br>
 
-https://yahya-rabii.github.io
 
-[**Connect with me on**](https://yahya-rabii.github.io)
+
+[**Connect with me on**] 
 [`ɴᴏxɪᴅᴇᴜꜱ`](https://yahya-rabii.github.io)
-[Connect with me on](https://yahya-rabii.github.io)
 
 # 📜 License 
 ```
