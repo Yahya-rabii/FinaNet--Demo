@@ -53,12 +53,6 @@ Some of the features of Munche app are:
 
 # Made By
 
-`ɴᴏxɪᴅᴇᴜꜱ`
-
-
-
-
-[**Connect with me on**] 
 [`ɴᴏxɪᴅᴇᴜꜱ`](https://yahya-rabii.github.io)
 
 # 📜 License 
