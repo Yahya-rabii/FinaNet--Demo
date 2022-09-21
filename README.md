@@ -60,8 +60,9 @@ Some of the features of Munche app are:
 
 https://yahya-rabii.github.io
 
-[Connect with me on]: https://yahya-rabii.github.io
-
+[**Connect with me on**](https://yahya-rabii.github.io)
+[`ɴᴏxɪᴅᴇᴜꜱ`](https://yahya-rabii.github.io)
+[Connect with me on](https://yahya-rabii.github.io)
 
 # 📜 License 
 ```
