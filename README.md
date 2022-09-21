@@ -47,7 +47,7 @@ Some of the features of Munche app are:
 
 4. Download and add the `google-services.json` file from the firebase project you created earlier and add it to the project under **app** folder.
 
-5. build APK of the project or create a divase on the included emulatur.
+5. build APK of the project or create a device on the included emulatur.
 
 10. Run the project into the emulator or your physical device.
 
