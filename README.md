@@ -10,6 +10,7 @@
 
 
 FinaNet is an Android application developed using JAVA, JSON, and XML. Its primary purpose is to facilitate seamless communication between the company and its suppliers, streamline the procurement of new products, and efficiently manage inventory.
+
 *Please Note:* this app is just a demo of the real app don't expect the code to be great.
 
 
